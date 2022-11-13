@@ -1,0 +1,25 @@
+{
+  "name": "@gibbu/classes",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "betterdiscord",
+    "scss",
+    "selectors",
+    "theme",
+    "discord",
+    "discordapp"
+  ],
+  "author": {
+		"name": "Gibbu",
+		"url": "https://gibbu.me"
+	},
+  "repository": {
+		"url": "https://github.com/Gibbu/discordclasses.git",
+		"type": "git"
+	},
+  "files": [
+    "./main.scss"
+  ],
+  "license": "MIT"
+}
