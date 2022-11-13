@@ -1,6 +1,6 @@
 {
 	"name": "@gibbu/classes",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "",
 	"keywords": [
 		"betterdiscord",
@@ -19,7 +19,7 @@
 		"type": "git"
 	},
 	"files": [
-		"./main.scss"
+		"./index.scss"
 	],
 	"license": "MIT",
 	"private": false
