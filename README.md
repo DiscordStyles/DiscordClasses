@@ -5,17 +5,17 @@ A SCSS helper function to select classes without any hardcoded values
 ## Installation
 
 ```bash
-npm install @gibbu/classes
+npm install @discordstyles/classes
 # or
-pnpm add @gibbu/classes
+pnpm add @discordstyles/classes
 # or
-yarn add @gibbu/classes
+yarn add @discordstyles/classes
 ```
 
 ## Usage
 
 ```scss
-@use '@gibbu/classes' as *; // We import as global so no need to do classes.cls().
+@use '@discordstyles/classes' as *; // We import as global so no need to do classes.cls().
 
 #{cls('chat.container')} {
 	color: red;

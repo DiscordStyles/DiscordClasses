@@ -1,6 +1,6 @@
 {
 	"name": "@discordstyles/classes",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "",
 	"keywords": [
 		"betterdiscord",
@@ -21,6 +21,9 @@
 	"files": [
 		"./index.scss"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"license": "MIT",
 	"private": false
 }
