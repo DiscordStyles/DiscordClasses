@@ -1,6 +1,6 @@
 {
 	"name": "@discordstyles/classes",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "",
 	"keywords": [
 		"betterdiscord",
@@ -15,7 +15,7 @@
 		"url": "https://gibbu.me"
 	},
 	"repository": {
-		"url": "https://github.com/Gibbu/discordclasses.git",
+		"url": "https://github.com/DiscordStyles/discordclasses.git",
 		"type": "git"
 	},
 	"files": [
