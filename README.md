@@ -2,6 +2,8 @@
 
 A SCSS helper function to select classes without any hardcoded values
 
+> ###### ⚠️ This is still in early development, expect things to change.
+
 ## Installation
 
 ```bash
@@ -35,12 +37,12 @@ This allows you to access a deeper level of the class map.
 
 <br>
 
-### Combine (`+`)
+### Combine (`:`)
 
 Combine two selectors together to increase specificity, much like regular css.
 
 ```scss
-#{cls('sidebar.channel.wrapper+sidebar.channel.muted')}
+#{cls('sidebar.channel.wrapper:sidebar.channel.muted')}
 // .wrapper-NhbLHG.modeMuted-2T4MDZ
 ```
 
@@ -55,20 +57,78 @@ Like a regular `:not` css selector.
 // .wrapper-NhbLHG:not(.modeSelected-3DmyhH)
 ```
 
-You can also group multiple inside the not selector with a comma (`,`)
+You can also group multiple inside the not selector with a comma (`,`).
 
 ```scss
 #{cls('sidebar.channel.wrapper!sidebar.channel.selected,sidebar.channel.muted')}
 // .wrapper-NhbLHG:not(.modeSelected-3DmyhH, .modeUnread-3Cxepe)
 ```
 
+If need be, you can also start the query with a `!`.
+
+```scss
+#{cls('sidebar.channel.wrapper')} {
+	&#{cls('!sidebar.channel.selected')} {
+		color: red;
+	}
+}
+// .wrapper-NhbLHG:not(.modeSelected-3DmyhH)
+```
+
+> **NOTE**: Any selector after the `!` will be wrapped inside the `:not`.
+
 <br>
 
-### Descendant selector
+### Descendant selector (` `)
 
 To save on a few characters here and there, you can select a descendant by providing a space between the two queries.
 
 ```scss
 #{cls('sidebar.container sidebar.channel.wrapper!sidebar.channel.selected,sidebar.channel.muted')}
 // .container-1NXEtd .wrapper-NhbLHG:not(.modeSelected-3DmyhH, .modeUnread-3Cxepe)
+```
+
+<br>
+
+### Direct descandant selector (`>`)
+
+Like a normal CSS `>` selector.
+
+```scss
+#{cls('mount>sidebar.container>sidebar.channel.wrapper')}
+// #app-mount > .container-1NXEtd > .wrapper-NhbLHG
+```
+
+<br>
+
+### Sibling selector (`~`)
+
+Like a normal CSS `~` selector.
+
+```scss
+#{cls('mount~sidebar.container')}
+// #app-mount ~ .container-1NXEtd
+```
+
+<br>
+
+### Direct sibling selector (`+`)
+
+Like a normal CSS `+` selector.
+
+```scss
+#{cls('mount+sidebar.container')}
+// #app-mount + .container-1NXEtd
+```
+
+<br>
+
+## Limitations
+
+Since there's no good way to determine what string has been parsed or not, combining `+`, `~`, and `>` will result in an error.  
+You'll have the separate the params into two separate queries and use a regular CSS selector.
+
+```scss
+#{cls('mount>app.layer')} ~ #{cls('app.baseLayer')}
+// #app-mount > .layer-86YKbF ~ baseLayer-W6S8cY
 ```
