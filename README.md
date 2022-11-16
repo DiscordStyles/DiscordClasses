@@ -14,6 +14,8 @@ pnpm add @discordstyles/classes
 yarn add @discordstyles/classes
 ```
 
+<br>
+
 ## Usage
 
 ```scss
@@ -23,6 +25,8 @@ yarn add @discordstyles/classes
 	color: red;
 }
 ```
+
+<br>
 
 ## Query selectors
 
@@ -57,10 +61,10 @@ Like a regular `:not` css selector.
 // .wrapper-NhbLHG:not(.modeSelected-3DmyhH)
 ```
 
-You can also group multiple inside the not selector with a comma (`,`).
+You can also group multiple inside the not selector with a pipe (`|`).
 
 ```scss
-#{cls('sidebar.channel.wrapper!sidebar.channel.selected,sidebar.channel.muted')}
+#{cls('sidebar.channel.wrapper!sidebar.channel.selected|sidebar.channel.muted')}
 // .wrapper-NhbLHG:not(.modeSelected-3DmyhH, .modeUnread-3Cxepe)
 ```
 
@@ -75,13 +79,20 @@ If need be, you can also start the query with a `!`.
 // .wrapper-NhbLHG:not(.modeSelected-3DmyhH)
 ```
 
-> **NOTE**: Any selector after the `!` will be wrapped inside the `:not`.
+> **NOTE**: Any selector after the `!` will be wrapped inside the `:not` aside from a comma (`,`).
+
+<br>
+
+### Group selector (`,`)
+
+```scss
+#{cls('mount app.layers,sidebar.container')}
+// #app-mount .layers-OrUESM, .container-1NXEtd
+```
 
 <br>
 
 ### Descendant selector (` `)
-
-To save on a few characters here and there, you can select a descendant by providing a space between the two queries.
 
 ```scss
 #{cls('sidebar.container sidebar.channel.wrapper!sidebar.channel.selected,sidebar.channel.muted')}
@@ -92,8 +103,6 @@ To save on a few characters here and there, you can select a descendant by provi
 
 ### Direct descandant selector (`>`)
 
-Like a normal CSS `>` selector.
-
 ```scss
 #{cls('mount>sidebar.container>sidebar.channel.wrapper')}
 // #app-mount > .container-1NXEtd > .wrapper-NhbLHG
@@ -103,8 +112,6 @@ Like a normal CSS `>` selector.
 
 ### Sibling selector (`~`)
 
-Like a normal CSS `~` selector.
-
 ```scss
 #{cls('mount~sidebar.container')}
 // #app-mount ~ .container-1NXEtd
@@ -113,8 +120,6 @@ Like a normal CSS `~` selector.
 <br>
 
 ### Direct sibling selector (`+`)
-
-Like a normal CSS `+` selector.
 
 ```scss
 #{cls('mount+sidebar.container')}
