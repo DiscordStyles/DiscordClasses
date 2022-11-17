@@ -1,6 +1,6 @@
 {
 	"name": "@discordstyles/classes",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"description": "",
 	"keywords": [
 		"betterdiscord",
@@ -19,7 +19,9 @@
 		"type": "git"
 	},
 	"files": [
-		"./index.scss"
+		"./index.scss",
+		"./_map.scss",
+		"./_utils.scss"
 	],
 	"publishConfig": {
 		"access": "public"
