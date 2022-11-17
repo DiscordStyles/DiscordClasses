@@ -31,6 +31,7 @@ $classmap: (
 	'guilds': (
 		'container': '.guilds-2JjMmN',
 		'tree': '.tree-3agP2X',
+		'wrapper': '.wrapper-1_HaEi',
 		'unread': (
 			'top': '.unreadMentionsIndicatorTop-2bTgUU',
 			'bottom': '.unreadMentionsIndicatorBottom-3RJMnQ',
@@ -252,7 +253,9 @@ $classmap: (
 			'groupStart': '.groupStart-3Mlgv1',
 			'selected': '.selected-2LX7Jy',
 			'replying': '.replying-eZ7p5z',
-			'mentioned': '.mentioned-Tre-dv'
+			'mentioned': '.mentioned-Tre-dv',
+			'edited': '.edited-1v5nT8',
+			'timestampHover': '.timestampVisibleOnHover-9PEuZS'
 		),
 		'embed': (
 			'wrapper': '.embedWrapper-1MtIDg',
@@ -545,7 +548,8 @@ $classmap: (
 		'colour': (
 			'brand': '.colorBrand-I6CyqQ',
 			'primary': '.colorPrimary-2AuQVo',
-			'red': '.colorRed-rQXKgM'
+			'red': '.colorRed-rQXKgM',
+			'green': '.colorGreen-3y-Z79'
 		)
 	)
 );
