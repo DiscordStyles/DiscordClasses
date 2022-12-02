@@ -3,6 +3,7 @@ $classmap: (
 	'common': (
 		'overflow': '.overflow-1wOqNV',
 		'clickable': '.clickable-31pE3P',
+		'pointer': '.cursorPointer-B3uwDA',
 		'flex': '.flex-2S1XBF',
 		'mode': (
 			'mouse': '.mouse-mode'
@@ -119,9 +120,17 @@ $classmap: (
 			'mainContent': '.mainContent-20q_Hp',
 			'iconContainer': '.iconContainer-21RCa3',
 			'icon': '.icon-2W8DHg',
+			'iconItem': '.iconItem-1EjiK0',
 			'name': '.name-28HaxV',
 			'channelName': '.channelName-3KPsGw',
-			'unreadPill': '.unread-36eUEm'
+			'unreadPill': '.unread-36eUEm',
+			'openChat': '.openChatIconItem-2kj5qO',
+			'connected': '.modeConnected-NrO4cP'
+		),
+		'threads': (
+			'container': '.container-1Bj0eq',
+			'spine': '.spine-29OFwR',
+			'spineBorder': '.spineBorder-1-F4s1'
 		),
 		'panels': (
 			'container': '.panels-3wFtMD',
@@ -482,6 +491,11 @@ $classmap: (
 		),
 		'currentUser': (
 			'wrapper': '.accountProfilePopoutWrapper-3GskID'
+		),
+		'statusPicker': (
+			'item': '.statusItem-2a1giL',
+			'text': '.status-qmUf7L',
+			'description': '.description-22_U3B'
 		)
 	),
 	'settings': (
