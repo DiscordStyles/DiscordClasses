@@ -69,7 +69,7 @@ $classmap: (
 		'separator': '.guildSeparator-a4uisj',
 		'scroller': '.scroller-3X7KbA',
 		'home': '.tutorialContainer-1pL9QS',
-		'homePill': 'pill-L_aLMQ'
+		'homePill': '.pill-L_aLMQ'
 	),
 	'sidebar': (
 		'sidebar': '.sidebar-1tnWFu',
@@ -473,9 +473,16 @@ $classmap: (
 		),
 		'user': (
 			'outer': '.userPopoutOuter-3AVBmJ',
+			'outerThemed': '.userProfileOuterUnthemed-2b2rsv',
 			'inner': '.userPopoutInner-1hXSeY',
+			'innerNonPremium': '.userProfileInnerThemedNonPremium-1gT-zY',
+			'innerWithBanner': '.userProfileInnerThemedWithBanner-2624Yx',
+			'innerWithoutBanner': '.userProfileInnerThemedPremiumWithoutBanner-1yMS1H',
+			'bannerWrapper': '.bannerSVGWrapper-qc0szY',
+			'banner': '.banner-2boKnS',
 			'avatarWrapper': '.avatarWrapper-3y0KZ1',
 			'avatarNormal': '.avatarWrapperNormal-1tQ3Je',
+			'overlay': '.overlayBackground-1KgwVi',
 			'section': '.section-3FmfOT',
 			'divider': '.divider-1tWBgZ',
 			'badges': '.profileBadges-31rDHI',
@@ -620,7 +627,7 @@ $classmap: (
 	'input': (
 		'container': '.input-2g-os5',
 		'wrapper': '.inputWrapper-BB4B-',
-		'iconPrefix': 'inputPrefix-1HHwWv',
+		'iconPrefix': '.inputPrefix-1HHwWv',
 		'multiInput': '.multiInput-1VARjC',
 		'multiInputLast': '.multiInputLast-35zVz0',
 		'multiField': '.multiInputField-1zyopx',
