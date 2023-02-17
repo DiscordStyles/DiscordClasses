@@ -3,6 +3,7 @@ $classmap: (
 	'common': (
 		'overflow': '.overflow-1wOqNV',
 		'clickable': '.clickable-31pE3P',
+		'pointer': '.cursorPointer-B3uwDA',
 		'flex': '.flex-2S1XBF',
 		'mode': (
 			'mouse': '.mouse-mode'
@@ -120,9 +121,17 @@ $classmap: (
 			'mainContent': '.mainContent-20q_Hp',
 			'iconContainer': '.iconContainer-21RCa3',
 			'icon': '.icon-2W8DHg',
+			'iconItem': '.iconItem-1EjiK0',
 			'name': '.name-28HaxV',
 			'channelName': '.channelName-3KPsGw',
-			'unreadPill': '.unread-36eUEm'
+			'unreadPill': '.unread-36eUEm',
+			'openChat': '.openChatIconItem-2kj5qO',
+			'connected': '.modeConnected-NrO4cP'
+		),
+		'threads': (
+			'container': '.container-1Bj0eq',
+			'spine': '.spine-29OFwR',
+			'spineBorder': '.spineBorder-1-F4s1'
 		),
 		'panels': (
 			'container': '.panels-3wFtMD',
@@ -464,26 +473,108 @@ $classmap: (
 		),
 		'user': (
 			'outer': '.userPopoutOuter-3AVBmJ',
-			'outerThemed': '.userProfileOuterUnthemed-2b2rsv',
 			'inner': '.userPopoutInner-1hXSeY',
-			'innerNonPremium': '.userProfileInnerThemedNonPremium-1gT-zY',
-			'innerWithBanner': '.userProfileInnerThemedWithBanner-2624Yx',
-			'innerWithoutBanner': '.userProfileInnerThemedPremiumWithoutBanner-1yMS1H',
-			'bannerWrapper': '.bannerSVGWrapper-qc0szY',
-			'banner': '.banner-2boKnS',
 			'avatarWrapper': '.avatarWrapper-3y0KZ1',
 			'avatarNormal': '.avatarWrapperNormal-1tQ3Je',
-			'overlay': '.overlayBackground-1KgwVi',
 			'section': '.section-3FmfOT',
 			'divider': '.divider-1tWBgZ',
 			'badges': '.profileBadges-31rDHI',
+			'badge': '.clickable-28QF7i',
+			'badgeImage': '.profileBadge22-3OAigE',
 			'nameTag': '.nameTag-H6kSJ0',
 			'messageContainer': '.messageInputContainer-2rGDH8',
-			'scroller': '.scroller-1jBQYo'
+			'scroller': '.scroller-1jBQYo',
+			'discrim': '.discrimBase-KriZSj',
+			'discrimNoNick': '.userTagDiscriminatorNoNickname-2HLaIE'
 		),
 		'currentUser': (
 			'wrapper': '.accountProfilePopoutWrapper-3GskID'
+		),
+		'statusPicker': (
+			'item': '.statusItem-2a1giL',
+			'text': '.status-qmUf7L',
+			'description': '.description-22_U3B'
 		)
+	),
+	'profile': (
+		'banner': '.banner-2boKnS',
+		'bannerWrapper': '.bannerSVGWrapper-qc0szY',
+		'overlay': '.overlayBackground-1KgwVi',
+		'outerThemed': '.userProfileOuterUnthemed-2b2rsv',
+		'inner': '.userProfileInner-3F03PX',
+		'innerNonPremium': '.userProfileInnerThemedNonPremium-1gT-zY',
+		'innerWithBanner': '.userProfileInnerThemedWithBanner-2624Yx',
+		'innerWithoutBanner': '.userProfileInnerThemedPremiumWithoutBanner-1yMS1H'
+	),
+	'modal': (
+		'layerContainer': '.layerContainer-2v_Sit',
+		'backdrop': '.backdrop-2ByYRN',
+		'withLayer': '.withLayer-2VVmpp',
+		'layer': '.layer-1Ixpg3',
+		'focusLock': '.focusLock-2tveLW',
+		'root': '.root-g14mjS',
+		'user': (
+			'root': '.root-2uUafN',
+			'outer': '.userProfileModalOuter-1FYL8T',
+			'inner': '.userProfileModalInner-3fh3QA',
+			'overlay': '.userProfileModalOverlayBackground-8p3-eU',
+			'top': '.topSection-1Khgkv',
+			'header': '.header-1_vWwx',
+			'headerTop': '.headerTop-212g15',
+			'badges': '.badgeList-2pMvZX',
+			'badge': '.clickable-28QF7i',
+			'badgeImage': '.profileBadge24-3UMhUO',
+			'body': '.body-_QAKrE',
+			'details': '.container-1U-qVy',
+			'nameTag': '.nameTag-2ysfG3',
+			'username': '.username-3JLfHz',
+			'discrim': '.discriminator-3_S3CG',
+			'customStatusText': '.customStatusText-3ca2B1',
+			'customStatus': '.customStatus-3QV7IG',
+			'customStatusEmoji': '.customStatusEmoji-3wK_iB',
+			'divider': '.divider-1NpGam',
+			'list': (
+				'scroller': '.listScroller-XCVa1H',
+				'row': '.listRow-Y5zoF8',
+				'avatar': '.listAvatar-2GhWlb',
+				'content': '.listRowContent-3fhsZ_',
+				'name': '.listName-3bDgY6',
+				'user': (
+					'avatar': '.listAvatar-2GhWlb',
+					'discrim': '.listDiscriminator-2XvfH2'
+				),
+				'guild': (
+					'nick': '.guildNick-HT7Pgu',
+					'avatar': '.guildAvatar-1UOAAy'
+				)
+			),
+			'info': (
+				'scroller': '.infoScroller-3MqKC5',
+				'section': '.userInfoSection-1gptv0',
+				'header': '.userInfoSectionHeader-48g5Qj',
+				'text': '.userInfoText-3GOMzH',
+				'memberSince': '.memberSinceContainer-3biwiY',
+				'note': '.note-3TX9O7',
+				'textarea': '.textarea-_59yqs'
+			),
+			'relations': (
+				'container': '.relationshipButtons-pZ_UWl',
+				'action': '.actionButton-D1ZvXj',
+				'more': 'div[class][role="button"]',
+				'moreIcon': '.additionalActionsIcon-1IPuHI'
+			),
+			'tabBar': (
+				'container': '.tabBarContainer-2UG0vy',
+				'tabBar': '.tabBar-2StdUa',
+				'item': '.tabBarItem-3VvT2z',
+				'selected': '.selected-g-kMVV'
+			)
+		)
+	),
+	'status': (
+		'avatar': '.wrapper-1VLyxH',
+		'mask': '.mask-1FEkla',
+		'svg': '.svg-2azL_l'
 	),
 	'settings': (
 		'layer': '.layer-86YKbF:not(.baseLayer-W6S8cY)',
