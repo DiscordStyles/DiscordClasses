@@ -43,11 +43,11 @@ $classmap: (
 			'itemWrapper': '.listItemWrapper-3d87LP',
 			'blob': '.blobContainer-ikKyFs',
 			'bloblSelected': '.selected-3c78Ai',
-			'server': '.wrapper-28eC3z',
+			'server': '.wrapper-2PSQCG',
 			'inner': '.wrapper-3kah-n',
 			'innerSelected': '.selected-1Drb7Z',
 			'icon': '.icon-3AqZ2e',
-			'svg': '.svg-2zuE5p',
+			'svg': '.svg-2ifYOU',
 			'pill': '.pill-L_aLMQ',
 			'pillItem': '.item-2LIpTv',
 			'addJoin': '.tutorialContainer-2jwoiB',
@@ -69,7 +69,7 @@ $classmap: (
 		'separator': '.guildSeparator-a4uisj',
 		'scroller': '.scroller-3X7KbA',
 		'home': '.tutorialContainer-1pL9QS',
-		'homePill': 'pill-L_aLMQ'
+		'homePill': '.pill-L_aLMQ'
 	),
 	'sidebar': (
 		'sidebar': '.sidebar-1tnWFu',
@@ -93,19 +93,20 @@ $classmap: (
 			'container': '.privateChannels-oVe7HL',
 			'scroller': '.scroller-WSmht3',
 			'user': '.channel-1Shao0',
-			'interactive': '.interactive-1vLZ_I',
+			'interactive': '.interactive-26HRN_',
+			'interactiveSelected': '.interactiveSelected-29CP8y',
 			'layout': '.layout-1LjVue',
-			'selected': '.selected-3veCBZ'
+			'selected': '.selected-26oxtA'
 		),
 		'channels': (
 			'scroller': '.scroller-1ox3I2',
-			'content': '.content-2a4AW9',
+			'content': '.content-yjf30S',
 			'category': (
 				'container': '.containerDefault-3TQ5YN',
 				'wrapper': '.wrapper-1S43wv',
 				'content': '.mainContent-uDGa6R',
 				'arrow': '.arrow-2HswgU',
-				'name': 'name-3BUDLf',
+				'name': '.name-3BUDLf',
 				'children': '.children-3MeUvj'
 			)
 		),
@@ -157,12 +158,12 @@ $classmap: (
 				'channel': '.channel-3prF2u',
 				'buttons': '.connection-3k9QeF > .flex-2S1XBF',
 				'button': '.button-12Fmur',
-				'buttonContents': '.contents-3ca1mk'
+				'buttonContents': '.contents-3NembX'
 			),
 			'actions': (
 				'container': '.actionButtons-2vEOUh',
 				'button': '.button-1EGGcP',
-				'buttonContents': '.contents-3ca1mk',
+				'buttonContents': '.contents-3NembX',
 				'buttonIcon': '.buttonIcon-2Zsrs2'
 			)
 		)
@@ -331,8 +332,8 @@ $classmap: (
 			'slate': '.slateTextArea-27tjG0',
 			'buttons': (
 				'container': '.buttons-uaqb-5',
-				'button': '.button-f2h6uQ',
-				'contents': '.contents-3ca1mk',
+				'button': '.button-ejjZWC',
+				'contents': '.contents-3NembX',
 				'wrapper': '.buttonWrapper-3YFQGJ',
 				'emoji': '.emojiButton-3FRTuj',
 				'sprite': '.sprite-2lxwfc',
@@ -373,7 +374,7 @@ $classmap: (
 		'container': '.container-3wLKDe',
 		'list': (
 			'container': '.list-3FIpnh',
-			'content': '.content-2a4AW9'
+			'content': '.content-yjf30S'
 		),
 		'header': (
 			'container': '.header-1Uy0p6',
@@ -426,7 +427,7 @@ $classmap: (
 		'container': '.container-2o3qEW',
 		'wrap': '.membersWrap-3NUR2t',
 		'scroller': '.members-3WRCEx',
-		'content': '.content-2a4AW9',
+		'content': '.content-yjf30S',
 		'header': '.membersGroup-2eiWxl'
 	),
 	'member': (
@@ -446,9 +447,9 @@ $classmap: (
 	'popout': (
 		'menu': (
 			'container': '.menu-1QACrS',
-			'scroller': '.scroller-1bVxF5',
+			'scroller': '.scroller-nxCRu_',
 			'group': '[role="group"]',
-			'separator': '.separator-1So4YB',
+			'separator': '.separator-12G2Op',
 			'quickReactions': (
 				'container': '.wrapper--nA0oy',
 				'item': '.customItem-2CxBSo',
@@ -460,14 +461,14 @@ $classmap: (
 				'padding': '.submenuPaddingContainer-_k62dJ'
 			),
 			'item': (
-				'container': '.item-1OdjEX',
+				'container': '.item-5ApiZt',
 				'label': '.label-2gNW3x',
 				'iconContainer': '.iconContainer-1-SsTR',
 				'arrow': '.arrow-2HswgU',
 				'colourDefault': '.colorDefault-CDqZdO',
 				'colourDanger': '.colorDanger-3n-KnP',
-				'focused': '.focused-3qFvc8',
-				'hideInteraction': '.hideInteraction-2jPGL_'
+				'focused': '.focused-3LIdPu',
+				'hideInteraction': '.hideInteraction-1vQrZJ'
 			)
 		),
 		'user': (
@@ -510,8 +511,8 @@ $classmap: (
 		'backdrop': '.backdrop-2ByYRN',
 		'withLayer': '.withLayer-2VVmpp',
 		'layer': '.layer-1Ixpg3',
-		'focusLock': '.focusLock-2tveLW',
-		'root': '.root-g14mjS',
+		'focusLock': '.focusLock-bHVOlV',
+		'root': '.root-1CAIjD',
 		'user': (
 			'root': '.root-2uUafN',
 			'outer': '.userProfileModalOuter-1FYL8T',
@@ -566,26 +567,29 @@ $classmap: (
 				'container': '.tabBarContainer-2UG0vy',
 				'tabBar': '.tabBar-2StdUa',
 				'item': '.tabBarItem-3VvT2z',
-				'selected': '.selected-g-kMVV'
+				'selected': '.selected-1sf9UK'
 			)
 		)
 	),
 	'status': (
 		'avatar': '.wrapper-1VLyxH',
-		'mask': '.mask-1FEkla',
-		'svg': '.svg-2azL_l'
+		'mask': '.mask-1y0tyc',
+		'svg': '.svg-1G_H_8'
 	),
 	'settings': (
 		'layer': '.layer-86YKbF:not(.baseLayer-W6S8cY)',
+		'auto': '.auto-2TJ1RH',
+		'scroller': '.contentRegionScroller-2_GT_N',
+		'scrollerBase': '.scrollerBase-1Pkza4',
 		'sidebar': (
 			'container': '.sidebar-nqHbhN',
 			'region': '.sidebarRegion-1VBisG',
 			'scroller': '.sidebarRegionScroller-FXiQOh',
-			'side': '.side-2ur1Qk',
-			'header': '.header-2Kx1US',
-			'item': '.item-3XjbnG',
-			'selected': '.selected-g-kMVV',
-			'separator': '.separator-2wx7h6',
+			'side': '.side-1lrxIh',
+			'header': '.header-2F5_LB',
+			'item': '.item-2GWPIy',
+			'selected': '.selected-1sf9UK',
+			'separator': '.separator-2N511j',
 			'premium': '.premiumTab-39eQzY',
 			'premiumLabel': '.premiumLabel-3HPvdB',
 			'socials': '.socialLinks-3ywLUf',
@@ -599,9 +603,9 @@ $classmap: (
 		'container': '.tooltip-14MtrL',
 		'right': '.tooltipRight-2TSb42',
 		'bottom': '.tooltipBottom-2WzfVx',
-		'primary': '.tooltipPrimary-3qLMbS',
-		'pointer': '.tooltipPointer-3L49xb',
-		'content': '.tooltipContent-Nejnvh',
+		'primary': '.tooltipPrimary-2466a2',
+		'pointer': '.tooltipPointer-sMBQqe',
+		'content': '.tooltipContent-38tm3I',
 		'guilds': (
 			'container': '.listItemTooltip-eHcnUw',
 			'rowName': '.rowGuildName-21wur6',
@@ -613,21 +617,21 @@ $classmap: (
 		'root': '.root-jbEB5E',
 		'roles': '.roles-3zC7MX',
 		'role': '.role-2TIOKu',
-		'circle': '.roleCircle-3K9O3d',
+		'circle': '.roleCircle-3TFUOr',
 		'name': '.roleName-2ZJJYR'
 	),
 	'input': (
 		'container': '.input-2g-os5',
 		'wrapper': '.inputWrapper-BB4B-',
-		'iconPrefix': 'inputPrefix-1HHwWv',
+		'iconPrefix': '.inputPrefix-1HHwWv',
 		'multiInput': '.multiInput-1VARjC',
 		'multiInputLast': '.multiInputLast-35zVz0',
 		'multiField': '.multiInputField-1zyopx',
 		'default': '.inputDefault-3FGxgL'
 	),
 	'buttons': (
-		'button': '.button-f2h6uQ',
-		'content': '.contents-3ca1mk',
+		'button': '.button-ejjZWC',
+		'content': '.contents-3NembX',
 		'look': (
 			'filled': '.lookFilled-yCfaCM',
 			'link': '.lookLink-15mFoz',
@@ -637,10 +641,13 @@ $classmap: (
 			'small': '.sizeSmall-wU2dO-'
 		),
 		'colour': (
-			'brand': '.colorBrand-I6CyqQ',
-			'primary': '.colorPrimary-2AuQVo',
-			'red': '.colorRed-rQXKgM',
-			'green': '.colorGreen-3y-Z79'
+			'brand': '.colorBrand-2M3O3N',
+			'brandNew': '.colorBrandNew-abZT3v',
+			'primary': '.colorPrimary-2-Lusz',
+			'red': '.colorRed-2VFhM4',
+			'green': '.colorGreen-jIPCAS',
+			'white': '.colorWhite-Eshn2o',
+			'lookBlank': '.lookBlank-FgPMy6'
 		)
 	)
 );
