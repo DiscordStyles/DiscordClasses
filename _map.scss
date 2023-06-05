@@ -137,7 +137,7 @@ $classmap: (
 			'container': '.panels-3wFtMD',
 			'user': (
 				'container': '.container-YkUktl',
-				'avatarWrapper': '.avatarWrapper-1B9FTW',
+				'avatarWrapper': '.avatarWrapper-eenWra',
 				'avatar': '.wrapper-1VLyxH',
 				'name': '.nameTag-sc-gpq',
 				'username': '.usernameContainer-3PPkWq',
@@ -202,6 +202,7 @@ $classmap: (
 	'chat': (
 		'container': '.chat-2ZfjoI',
 		'content': '.content-1jQy2l',
+		'contentInner': '.chatContent-3KubbW',
 		'bars': (
 			'button': '.barButtonMain-2GIx4o',
 			'buttonIcon': '.barButtonIcon-bMvzp2',
@@ -446,13 +447,13 @@ $classmap: (
 	),
 	'popout': (
 		'menu': (
-			'container': '.menu-1QACrS',
+			'container': '.menu-2TXYjN',
 			'scroller': '.scroller-nxCRu_',
 			'group': '[role="group"]',
 			'separator': '.separator-12G2Op',
 			'quickReactions': (
 				'container': '.wrapper--nA0oy',
-				'item': '.customItem-2CxBSo',
+				'item': '.customItem-1KYL7t',
 				'button': '.button-1zW0-r',
 				'icon': '.icon-Yl4xbA'
 			),
@@ -472,20 +473,23 @@ $classmap: (
 			)
 		),
 		'user': (
-			'outer': '.userPopoutOuter-3AVBmJ',
-			'inner': '.userPopoutInner-1hXSeY',
-			'avatarWrapper': '.avatarWrapper-3y0KZ1',
-			'avatarNormal': '.avatarWrapperNormal-1tQ3Je',
-			'section': '.section-3FmfOT',
+			'outer': '.userPopoutOuter-1OHwPL',
+			'inner': '.userPopoutInner-nv9Y92',
+			'avatarWrapper': '.avatarWrapper-eenWra',
+			'avatarNormal': '.avatarWrapperNormal-ahVUaC',
+			'avatarPositionPreimum': '.avatarPositionPremiumBanner-2EAbSH',
+			'section': '.section-28YDOf',
 			'divider': '.divider-1tWBgZ',
-			'badges': '.profileBadges-31rDHI',
+			'badges': '.profileBadges-2pItdR',
 			'badge': '.clickable-28QF7i',
 			'badgeImage': '.profileBadge22-3OAigE',
 			'nameTag': '.nameTag-H6kSJ0',
 			'messageContainer': '.messageInputContainer-2rGDH8',
 			'scroller': '.scroller-1jBQYo',
 			'discrim': '.discrimBase-KriZSj',
-			'discrimNoNick': '.userTagDiscriminatorNoNickname-2HLaIE'
+			'discrimNoNick': '.userTagDiscriminatorNoNickname-2HLaIE',
+			'userText': '.userText-1_v2Cq',
+			'nickName': '.nickname-3P1RuO'
 		),
 		'currentUser': (
 			'wrapper': '.accountProfilePopoutWrapper-3GskID'
@@ -497,12 +501,12 @@ $classmap: (
 		)
 	),
 	'profile': (
-		'banner': '.banner-2boKnS',
-		'bannerWrapper': '.bannerSVGWrapper-qc0szY',
-		'overlay': '.overlayBackground-1KgwVi',
+		'banner': '.banner-1YaD3N',
+		'bannerWrapper': '.bannerSVGWrapper-2CLfzN',
+		'overlay': '.overlayBackground-2aa7wt',
 		'outerThemed': '.userProfileOuterUnthemed-2b2rsv',
 		'inner': '.userProfileInner-3F03PX',
-		'innerNonPremium': '.userProfileInnerThemedNonPremium-1gT-zY',
+		'innerNonPremium': '.userProfileInnerThemedNonPremium-2AJg-H',
 		'innerWithBanner': '.userProfileInnerThemedWithBanner-2624Yx',
 		'innerWithoutBanner': '.userProfileInnerThemedPremiumWithoutBanner-1yMS1H'
 	),
@@ -514,18 +518,18 @@ $classmap: (
 		'focusLock': '.focusLock-bHVOlV',
 		'root': '.root-1CAIjD',
 		'user': (
-			'root': '.root-2uUafN',
-			'outer': '.userProfileModalOuter-1FYL8T',
-			'inner': '.userProfileModalInner-3fh3QA',
-			'overlay': '.userProfileModalOverlayBackground-8p3-eU',
-			'top': '.topSection-1Khgkv',
-			'header': '.header-1_vWwx',
-			'headerTop': '.headerTop-212g15',
-			'badges': '.badgeList-2pMvZX',
+			'root': '.root-1CAIjD',
+			'outer': '.userProfileModalOuter-2wdWjU',
+			'inner': '.userProfileModalInner-3dx9L9',
+			'overlay': '.userProfileModalOverlayBackground-2dAaBg',
+			'top': '.topSection-13QKHs',
+			'header': '.header-S26rhB',
+			'headerTop': '.headerTop-1PNKck',
+			'badges': '.badgeList-2aoHPw',
 			'badge': '.clickable-28QF7i',
 			'badgeImage': '.profileBadge24-3UMhUO',
 			'body': '.body-_QAKrE',
-			'details': '.container-1U-qVy',
+			'details': '.container-3g15px',
 			'nameTag': '.nameTag-2ysfG3',
 			'username': '.username-3JLfHz',
 			'discrim': '.discriminator-3_S3CG',
@@ -558,10 +562,10 @@ $classmap: (
 				'textarea': '.textarea-_59yqs'
 			),
 			'relations': (
-				'container': '.relationshipButtons-pZ_UWl',
-				'action': '.actionButton-D1ZvXj',
+				'container': '.relationshipButtons-3ByBpj',
+				'action': '.actionButton-iarQTd',
 				'more': 'div[class][role="button"]',
-				'moreIcon': '.additionalActionsIcon-1IPuHI'
+				'moreIcon': '.additionalActionsIcon-3Cy8UU'
 			),
 			'tabBar': (
 				'container': '.tabBarContainer-2UG0vy',
@@ -572,7 +576,7 @@ $classmap: (
 		)
 	),
 	'status': (
-		'avatar': '.wrapper-1VLyxH',
+		'avatar': '.wrapper-3Un6-K',
 		'mask': '.mask-1y0tyc',
 		'svg': '.svg-1G_H_8'
 	),
@@ -615,10 +619,11 @@ $classmap: (
 	),
 	'roles': (
 		'root': '.root-jbEB5E',
-		'roles': '.roles-3zC7MX',
+		'roles': '.roles-3vQPxb',
 		'role': '.role-2TIOKu',
 		'circle': '.roleCircle-3TFUOr',
-		'name': '.roleName-2ZJJYR'
+		'name': '.roleName-2ZJJYR',
+		'removeButton': '.roleRemoveButton-17oXnT'
 	),
 	'input': (
 		'container': '.input-2g-os5',
