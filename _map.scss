@@ -14,7 +14,7 @@ $classmap: (
 	),
 	'app': (
 		'devToolsWrapper': '.appDevToolsWrapper-1QxdQf',
-		'outer': '.app-3xd6d0',
+		'outer': '.app-1BipOi',
 		'inner': '.app-2CXKsg',
 		'bg': '.bg-1QIAus',
 		'layers': '.layers-OrUESM',
@@ -26,7 +26,7 @@ $classmap: (
 	'windows': (
 		'titleBar': '.typeWindows-2-g3UY',
 		'wordMark': '.wordmarkWindows-2dq6rw',
-		'button': '.winButton-3UMjdg',
+		'button': '.winButton-3SigSb',
 		'close': '.winButtonClose-3Q8ZH5'
 	),
 	'guilds': (
@@ -136,35 +136,35 @@ $classmap: (
 		'panels': (
 			'container': '.panels-3wFtMD',
 			'user': (
-				'container': '.container-YkUktl',
-				'avatarWrapper': '.avatarWrapper-1B9FTW',
+				'container': '.container-1CH86i',
+				'avatarWrapper': '.avatarWrapper-12uuu4',
 				'avatar': '.wrapper-1VLyxH',
-				'name': '.nameTag-sc-gpq',
-				'username': '.usernameContainer-3PPkWq',
+				'name': '.nameTag-2Q56-H',
+				'username': '.usernameContainer--2WsMy',
 				'title': '.title-338goq',
 				'tag': '.subtext-2HDqJ7'
 			)
 		),
 		'connected': (
-			'wrapper': '.wrapper-3Hk9OB',
-			'container': '.container-1zzFcN',
+			'wrapper': '.wrapper-VSquwh',
+			'container': '.container-2NLBJg',
 			'info': (
-				'container': '.connection-3k9QeF',
-				'inner': '.inner-llGtyq',
+				'container': '.connection-3wznVd',
+				'inner': '.inner-C_MH0f',
 				'status': '.rtcConnectionStatus-c5A6Av',
 				'ping': '.ping-2IpLcU',
 				'label': '.labelWrapper-1HofQ-',
-				'labelButton': '.statusWithPopout-1MDqs1',
-				'channel': '.channel-3prF2u',
-				'buttons': '.connection-3k9QeF > .flex-2S1XBF',
+				'labelButton': '.statusWithPopout-2So6WV',
+				'channel': '.channel-2vy8ff',
+				'buttons': '.connection-3wznVd > .flex-2S1XBF',
 				'button': '.button-12Fmur',
 				'buttonContents': '.contents-3NembX'
 			),
 			'actions': (
-				'container': '.actionButtons-2vEOUh',
-				'button': '.button-1EGGcP',
+				'container': '.actionButtons-1DmM2g',
+				'button': '.button-2gNyE9',
 				'buttonContents': '.contents-3NembX',
-				'buttonIcon': '.buttonIcon-2Zsrs2'
+				'buttonIcon': '.buttonIcon-1OrqOd'
 			)
 		)
 	),
@@ -200,8 +200,8 @@ $classmap: (
 		)
 	),
 	'chat': (
-		'container': '.chat-2ZfjoI',
-		'content': '.content-1jQy2l',
+		'container': '.chat-9g_3Xj',
+		'content': '.content-18rAwf',
 		'bars': (
 			'button': '.barButtonMain-2GIx4o',
 			'buttonIcon': '.barButtonIcon-bMvzp2',
@@ -235,7 +235,7 @@ $classmap: (
 			'text': '.repliedTextPreview-1bvxun'
 		),
 		'messages': (
-			'container': '.chatContent-3KubbW',
+			'container': '.chatContent-2O4SXb',
 			'wrapper': '.messagesWrapper-RpOMA3',
 			'scroller': '.scroller-kQBbkU',
 			'scrollerContent': '.scrollerContent-2SW0kQ',
@@ -318,8 +318,8 @@ $classmap: (
 			'icon': '.icon-1zidb7'
 		),
 		'textbox': (
-			'container': '.form-3gdLxP',
-			'channelTextarea': '.channelTextArea-1FufC0',
+			'container': '.form-3qe0Ni',
+			'channelTextarea': '.channelTextArea-1deLlK',
 			'scroller': '.scrollableContainer-15eg7h',
 			'inner': '.inner-NQg18Y',
 			'attach': (
@@ -351,17 +351,17 @@ $classmap: (
 			)
 		),
 		'announcement': (
-			'textbox': '.wrapper-2SplAX',
-			'content': '.content-2M_BlY',
-			'image': '.image-3FliiM',
-			'text': '.text-2GfGMu',
-			'buttonContainer': '.buttonContainer-KMz3Ex',
-			'button': '.button-cO0-d9'
+			'textbox': '.wrapper-IjGAlW',
+			'content': '.content-1YKiCa',
+			'image': '.image-15uDsn',
+			'text': '.text-3l52_l',
+			'buttonContainer': '.buttonContainer-1OlVVX',
+			'button': '.button-1F0CyK'
 		),
 		'altchat': (
-			'container': '.container-3XgAHv',
+			'container': '.container-3s2w-i',
 			'chat': '.chat-25x62K',
-			'chatContent': '.chatContent-3KubbW',
+			'chatContent': '.chatContent-2O4SXb',
 			'divider': '.divider-AZrXIA',
 			'followBar': (
 				'container': '.container-3YcgdM',
@@ -424,11 +424,11 @@ $classmap: (
 		)
 	),
 	'members': (
-		'container': '.container-2o3qEW',
-		'wrap': '.membersWrap-3NUR2t',
-		'scroller': '.members-3WRCEx',
+		'container': '.container-2vWgD2',
+		'wrap': '.membersWrap-3GwLFp',
+		'scroller': '.members-2y1nVj',
 		'content': '.content-yjf30S',
-		'header': '.membersGroup-2eiWxl'
+		'header': '.membersGroup-2YoqY-'
 	),
 	'member': (
 		'container': '.member-2gU6Ar',
@@ -488,7 +488,7 @@ $classmap: (
 			'discrimNoNick': '.userTagDiscriminatorNoNickname-2HLaIE'
 		),
 		'currentUser': (
-			'wrapper': '.accountProfilePopoutWrapper-3GskID'
+			'wrapper': '.accountProfilePopoutWrapper-Ag_Fip'
 		),
 		'statusPicker': (
 			'item': '.statusItem-2a1giL',
