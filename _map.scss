@@ -1,10 +1,10 @@
 $classmap: (
 	'mount': '#app-mount',
 	'common': (
-		'overflow': '.overflow__87fe8',
-		'clickable': '.clickable_d866f1',
+		'overflow': '.overflow__993fa',
+		'clickable': '.clickable__09456',
 		'pointer': '.cursorPointer-B3uwDA',
-		'flex': '.flex_f5fbb7',
+		'flex': '.flex_f18b02',
 		'mode': (
 			'mouse': '.mouse-mode'
 		),
@@ -18,178 +18,178 @@ $classmap: (
 		'inner': '.app_de4237',
 		'bg': '.bg__12180',
 		'layers': '.layers__1c917',
-		'layer': '.layer__2efaa ',
-		'baseLayer': '.baseLayer__8fda3',
-		'base': '.base__3e6af',
-		'baseContent': '.content__4bf10'
+		'layer': '.layer_f7d46a ',
+		'baseLayer': '.baseLayer__2b890',
+		'base': '.base_c0676e',
+		'baseContent': '.content__76dcf'
 	),
 	'windows': (
-		'titleBar': '.typeWindows__5fa63',
-		'wordMark': '.wordmarkWindows__05c46',
-		'button': '.winButton__88672',
-		'close': '.winButtonClose__73489'
+		'titleBar': '.typeWindows_e41dab',
+		'wordMark': '.wordmarkWindows_ffbc5e',
+		'button': '.winButton_f17fb6',
+		'close': '.winButtonClose__6396d'
 	),
 	'guilds': (
 		'container': '.guilds__2b93a',
 		'tree': '.tree__7a511',
-		'wrapper': '.wrapper_a7e7a8',
+		'wrapper': '.wrapper__216eb',
 		'unread': (
-			'top': '.unreadMentionsIndicatorTop_ada847',
-			'bottom': '.unreadMentionsIndicatorBottom_fdb943',
-			'bar': '.unreadMentionsBar__0d02a'
+			'top': '.unreadMentionsIndicatorTop__153ad',
+			'bottom': '.unreadMentionsIndicatorBottom__9351c',
+			'bar': '.unreadMentionsBar__8cd45'
 		),
 		'list': (
-			'item': '.listItem_fa7b36',
-			'itemWrapper': '.listItemWrapper__1f93b',
-			'blob': '.blobContainer__5ee50',
-			'bloblSelected': '.selected__98d51',
-			'server': '.wrapper__3af0b',
-			'inner': '.wrapper_d281dd',
-			'innerSelected': '.selected_f5ec8e',
-			'icon': '.icon__0cbed',
-			'svg': '.svg_ad7356',
+			'item': '.listItem__48528',
+			'itemWrapper': '.listItemWrapper__3d465',
+			'blob': '.blobContainer_c44493',
+			'bloblSelected': '.selected_e85eba',
+			'server': '.wrapper__9916c',
+			'inner': '.wrapper__8436d',
+			'innerSelected': '.selected_ae80f7',
+			'icon': '.icon__11cf1',
+			'svg': '.svg__34dd4',
 			'pill': '.pill_d1140c',
 			'pillItem': '.item_f9d377',
-			'addJoin': '.tutorialContainer_dc6fde',
-			'circleButton': '.circleIconButton_d8df29',
-			'circleIcon': '.circleIcon__428dd',
-			'childWrapper': '.childWrapper__01b9c'
+			'addJoin': '.tutorialContainer__6835f',
+			'circleButton': '.circleIconButton__05cf2',
+			'circleIcon': '.circleIcon_b62ef0',
+			'childWrapper': '.childWrapper_a6ce15'
 		),
 		'folder': (
 			'container': '.folder__17546',
-			'wrapper': '.wrapper_ed1dea',
+			'wrapper': '.wrapper__832f2',
 			'folderHover': '.hover__043de',
-			'iconWrapper': '.folderIconWrapper__72239',
-			'closedWrapper': '.closedFolderIconWrapper__7321f',
-			'openedBackground': '.expandedFolderBackground__1bec6',
-			'collapsed': '.collapsed__0a270',
-			'icon': '.guildIcon__2e5ab'
+			'iconWrapper': '.folderIconWrapper__11165',
+			'closedWrapper': '.closedFolderIconWrapper__722d5',
+			'openedBackground': '.expandedFolderBackground_b1385f',
+			'collapsed': '.collapsed__98ad5',
+			'icon': '.guildIcon_b6bfa7'
 		),
-		'servers': '.scroller__3d071 > div[aria-label]',
-		'separator': '.guildSeparator_dcb3cc',
-		'scroller': '.scroller__3d071',
-		'home': '.tutorialContainer__890ea',
+		'servers': '.scroller_de945b > div[aria-label]',
+		'separator': '.guildSeparator__75928',
+		'scroller': '.scroller_de945b',
+		'home': '.tutorialContainer_b06ae6',
 		'homePill': '.pill_d1140c'
 	),
 	'sidebar': (
-		'sidebar': '.sidebar_ded4b5',
-		'container': '.container__590e2',
+		'sidebar': '.sidebar_e031be',
+		'container': '.container__7e23c',
 		'head': (
-			'container': '.container__7c79d',
-			'header': '.header__104ca',
-			'content': '.headerContent_ee8727',
-			'guildIcon': '.guildIconContainer_a995c7',
-			'name': '.name_c08dbc',
-			'button': '.headerButton__3af9f',
-			'children': '.headerChildren__7cd0b',
-			'icon': '.button__07e07',
-			'selected': '.selected__0b1ad',
+			'container': '.container_f41675',
+			'header': '.header__77c95',
+			'content': '.headerContent__6fcc7',
+			'guildIcon': '.guildIconContainer__3c180',
+			'name': '.name_e8e549',
+			'button': '.headerButton__532a2',
+			'children': '.headerChildren_e6a96f',
+			'icon': '.button__84b6b',
+			'selected': '.selected__987e6',
 			'bannerImage': '.bannerImage-ubW8K',
-			'bannerImg': '.bannerImg_c85b7f',
-			'animatedContainer': '.animatedContainer__341f6',
-			'search': '.searchBar_e4ea2a'
+			'bannerImg': '.bannerImg_fe5c1b',
+			'animatedContainer': '.animatedContainer__0e828',
+			'search': '.searchBar__621ec'
 		),
 		'dms': (
-			'container': '.privateChannels__93473',
-			'scroller': '.scroller__4b984',
-			'user': '.channel_c21703',
-			'interactive': '.interactive__776ee',
-			'interactiveSelected': '.interactiveSelected_ec846b',
+			'container': '.privateChannels__9b518',
+			'scroller': '.scroller__89969',
+			'user': '.channel__0aef5',
+			'interactive': '.interactive__0786a',
+			'interactiveSelected': '.interactiveSelected__689f0',
 			'layout': '.layout__59abc',
-			'selected': '.selected_d94cf9'
+			'selected': '.selected__37292'
 		),
 		'channels': (
-			'scroller': '.scroller_f0f183',
-			'content': '.content__23cab',
+			'scroller': '.scroller__1f498',
+			'content': '.content__690c5',
 			'category': (
-				'container': '.containerDefault__23a29',
-				'wrapper': '.wrapper__9c483',
-				'content': '.mainContent_a0b319',
+				'container': '.containerDefault_e3b32b',
+				'wrapper': '.wrapper__07e2f',
+				'content': '.mainContent__2333c',
 				'arrow': '.arrow_cb03b8',
-				'name': '.name__590d6',
-				'children': '.children_d4d259'
+				'name': '.name__27f04',
+				'children': '.children_d18c7d'
 			)
 		),
 		'channel': (
-			'container': '.containerDefault__3187b',
-			'containerSelected': '.selected__3b4cb',
-			'wrapper': '.wrapper__7bcde',
-			'selected': '.modeSelected__487d6',
-			'unread': '.modeUnreadImportant_efb53e',
-			'muted': '.modeMuted__0aeea',
-			'content': '.wrapper__7bcde',
+			'container': '.containerDefault_ae2ea4',
+			'containerSelected': '.selected__11b62',
+			'wrapper': '.wrapper__612a5',
+			'selected': '.modeSelected__473f1',
+			'unread': '.modeUnreadImportant__35358',
+			'muted': '.modeMuted_f0a72e',
+			'content': '.wrapper__612a5',
 			'mainContent': '.mainContent-20q_Hp',
-			'iconContainer': '.iconContainer__3f9b0',
-			'icon': '.icon_eff5d4',
-			'iconItem': '.iconItem__8e3b8',
-			'name': '.name__8d1ec',
+			'iconContainer': '.iconContainer__6a580',
+			'icon': '.icon__67ab4',
+			'iconItem': '.iconItem__56989',
+			'name': '.name__4eb92',
 			'channelName': '.channelName-3KPsGw',
 			'unreadPill': '.unread__48cf4',
 			'openChat': '.openChatIconItem-2kj5qO',
-			'connected': '.modeConnected__1c02e'
+			'connected': '.modeConnected__52a8f'
 		),
 		'threads': (
-			'container': '.container_f87d43',
+			'container': '.container__342a0',
 			'spine': '.spine__88e6d',
-			'spineBorder': '.spineBorder_bdec8b'
+			'spineBorder': '.spineBorder__52981'
 		),
 		'panels': (
 			'container': '.panels__58331',
 			'user': (
-				'container': '.container_ca50b9',
-				'avatarWrapper': '.avatarWrapper_ba5175',
+				'container': '.container_debb33',
+				'avatarWrapper': '.avatarWrapper__500a6',
 				'avatar': '.wrapper-1VLyxH',
-				'name': '.nameTag__0e320',
-				'username': '.usernameContainer__750f9',
-				'title': '.title__10613',
-				'tag': '.subtext__8f869'
+				'name': '.nameTag__77ab2',
+				'username': '.usernameContainer__22048',
+				'title': '.title__4a7a9',
+				'tag': '.subtext_ce73b4'
 			)
 		),
 		'connected': (
-			'wrapper': '.wrapper__0ed4a',
-			'container': '.container_d667ff',
+			'wrapper': '.wrapper_e832ee',
+			'container': '.container_e1958d',
 			'info': (
-				'container': '.connection__5bb32',
+				'container': '.connection__38593',
 				'inner': '.inner_ab95dc',
-				'status': '.rtcConnectionStatus__40882',
-				'ping': '.ping__47992',
-				'label': '.labelWrapper_a0c350',
-				'labelButton': '.statusWithPopout__456ad',
-				'channel': '.channel_d7d412',
-				'buttons': '.connection__5bb32 > .flex_f5fbb7',
-				'button': '.button__4f306',
-				'buttonContents': '.contents_fb6220'
+				'status': '.rtcConnectionStatus_e749c4',
+				'ping': '.ping__838d2',
+				'label': '.labelWrapper__51637',
+				'labelButton': '.statusWithPopout__3aad9',
+				'channel': '.channel__42be3',
+				'buttons': '.connection__38593 > .flex_f18b02',
+				'button': '.button_ae40a4',
+				'buttonContents': '.contents__322f4'
 			),
 			'actions': (
-				'container': '.actionButtons_b58cbb',
-				'button': '.button__66e8c',
-				'buttonContents': '.contents_fb6220',
-				'buttonIcon': '.buttonIcon__80d32'
+				'container': '.actionButtons__85e3c',
+				'button': '.button_b82d53',
+				'buttonContents': '.contents__322f4',
+				'buttonIcon': '.buttonIcon__64412'
 			)
 		)
 	),
 	'title': (
-		'container': '.container__11d72',
+		'container': '.container__26baa',
 		'children': (
-			'container': '.children__32014',
-			'titleWrapper': '.titleWrapper__482dc',
-			'title': '.title__9e2b0',
-			'divider': '.divider_c09b64',
+			'container': '.children_cde9af',
+			'titleWrapper': '.titleWrapper_d6133e',
+			'title': '.title__84e16',
+			'divider': '.divider_bdb894',
 			'topic': '.topic__16ae3'
 		),
 		'toolbar': (
-			'container': '.toolbar__88c63',
-			'icon': '.icon__88ea8',
-			'iconWrapper': '.iconWrapper_af9215',
-			'selected': '.selected_be2668'
+			'container': '.toolbar__62fb5',
+			'icon': '.icon__3ede9',
+			'iconWrapper': '.iconWrapper_de6cd1',
+			'selected': '.selected__1fc53'
 		),
 		'search': (
 			'outer': '.search__07df0',
 			'inner': '.search_ac353c',
-			'bar': '.searchBar_e0c60b',
-			'icon': '.icon__46425',
-			'iconContainer': '.iconContainer__8fa9c',
-			'iconVisible': '.visible__4d9aa',
+			'bar': '.searchBar__5a20a',
+			'icon': '.icon__53a5c',
+			'iconContainer': '.iconContainer__9f124',
+			'iconVisible': '.visible__720ac',
 			'draftEditor': (
 				'root': '.DraftEditor-root',
 				'placeholder': '.public-DraftEditorPlaceholder-root',
@@ -201,172 +201,172 @@ $classmap: (
 	),
 	'chat': (
 		'container': '.chat__52833',
-		'content': '.content__1a4fe',
+		'content': '.content__01e65',
 		'bars': (
-			'button': '.barButtonMain__0f5c6',
-			'buttonIcon': '.barButtonIcon__907ef',
+			'button': '.barButtonMain__984b4',
+			'buttonIcon': '.barButtonIcon__8b27d',
 			'newMessages': (
-				'container': '.newMessagesBar__8b6d7',
-				'content': '.span_a7874a'
+				'container': '.newMessagesBar__8b272',
+				'content': '.span_b2761b'
 			),
-			'jumpTo': '.jumpToPresentBar__0ff7f',
+			'jumpTo': '.jumpToPresentBar__69174',
 			'attachments': (
-				'container': '.channelAttachmentArea__740bf',
+				'container': '.channelAttachmentArea__5e46a',
 				'item': '.upload_c98ecb',
-				'itemContainer': '.uploadContainer__5a7da',
-				'icon': '.icon_c2f643',
+				'itemContainer': '.uploadContainer__72a65',
+				'icon': '.icon__33bb5',
 				'name': (
-					'container': '.filenameContainer_c6cd59',
-					'text': '.filename__7ce23'
+					'container': '.filenameContainer__3b490',
+					'text': '.filename__1769f'
 				)
 			),
 			'reply': (
-				'attachedBars': '.attachedBars_da3c74',
-				'clip': '.clipContainer__99c30',
-				'bar': '.replyBar_b64d74',
-				'label': '.replyLabel__401e8',
+				'attachedBars': '.attachedBars_c1606a',
+				'clip': '.clipContainer_ab9cf6',
+				'bar': '.replyBar_ed6afc',
+				'label': '.replyLabel__84289',
 				'username': '.username-u-ebrn'
 			)
 		),
 		'reply': (
-			'container': '.repliedMessage_e2bf4a',
-			'avatar': '.replyAvatar_cea07c',
-			'username': '.username_d30d99',
-			'text': '.repliedTextPreview__90311'
+			'container': '.repliedMessage__636d2',
+			'avatar': '.replyAvatar__4ba85',
+			'username': '.username__0b0e7',
+			'text': '.repliedTextPreview__1a8a4'
 		),
 		'messages': (
-			'container': '.chatContent__5dca8',
-			'wrapper': '.messagesWrapper_ea2b0b',
-			'scroller': '.scroller__1f96e',
-			'scrollerContent': '.scrollerContent_c73942',
-			'scrollerInner': '.scrollerInner__059a5',
-			'scrollerSpacer': '.scrollerSpacer__9cd32',
-			'icon': '.iconWrapper__1629a'
+			'container': '.chatContent_f087cb',
+			'wrapper': '.messagesWrapper_add28b',
+			'scroller': '.scroller_e412fe',
+			'scrollerContent': '.scrollerContent__94ac9',
+			'scrollerInner': '.scrollerInner__37fee',
+			'scrollerSpacer': '.scrollerSpacer__6b1b6',
+			'icon': '.iconWrapper__8d563'
 		),
 		'divider': (
-			'container': '.divider__8cf56',
-			'content': '.content_d67847',
-			'unread': '.isUnread__6f880'
+			'container': '.divider__01aed',
+			'content': '.content__7191e',
+			'unread': '.isUnread_de09f5'
 		),
 		'message': (
-			'container': '.message__80c10',
-			'listItem': '.messageListItem__6a4fb',
-			'cozy': '.cozyMessage__64ce7',
-			'content': '.contents_f41bb2',
+			'container': '.message_ccca67',
+			'listItem': '.messageListItem__050f9',
+			'cozy': '.cozyMessage__9f4fd',
+			'content': '.contents_d3ae0d',
 			'avatar': '.avatar__08316',
-			'header': '.header__39b23',
-			'headerText': '.headerText_f47574',
-			'username': '.username_d30d99',
-			'timestamp': '.timestamp_cdbd93',
-			'timestampInline': '.timestampInline__470e0',
+			'header': '.header__6a14d',
+			'headerText': '.headerText_bd68ec',
+			'username': '.username__0b0e7',
+			'timestamp': '.timestamp_c79dd2',
+			'timestampInline': '.timestampInline__430cf',
 			'markup': '.markup_a7e664',
-			'groupStart': '.groupStart__56db5',
-			'selected': '.selected_fd9051',
-			'replying': '.replying_d7b6ad',
-			'mentioned': '.mentioned__58017',
+			'groupStart': '.groupStart__7b93c',
+			'selected': '.selected_e3bc5d',
+			'replying': '.replying__38514',
+			'mentioned': '.mentioned_fa6fd2',
 			'edited': '.edited_b20dd9',
-			'timestampHover': '.timestampVisibleOnHover_e8cc6d'
+			'timestampHover': '.timestampVisibleOnHover__1679f'
 		),
 		'embed': (
-			'wrapper': '.embedWrapper_c143d9',
-			'gridContainer': '.gridContainer_de8cdc',
-			'grid': '.grid_c7c4e6',
-			'remove': '.embedSuppressButton_df9a75',
-			'provider': '.embedProvider_cfa718',
-			'link': '.embedLink__00ab9',
-			'author': '.embedAuthor_cb4bfc',
-			'authorLink': '.embedAuthorNameLink_b25226',
-			'title': '.embedTitle__31740',
-			'titleLink': '.embedTitleLink__0caf9',
-			'video': '.embedVideo__0c65b',
-			'media': '.embedMedia_b473d2',
-			'videoActions': '.embedVideoActions__7513f',
-			'imageContent': '.imageContent__24964'
+			'wrapper': '.embedWrapper__47b23',
+			'gridContainer': '.gridContainer_e31d85',
+			'grid': '.grid__35551',
+			'remove': '.embedSuppressButton__5aae1',
+			'provider': '.embedProvider_f3e807',
+			'link': '.embedLink_e542f5',
+			'author': '.embedAuthor__3e899',
+			'authorLink': '.embedAuthorNameLink_dd0d5f',
+			'title': '.embedTitle__1ac59',
+			'titleLink': '.embedTitleLink__2d644',
+			'video': '.embedVideo__303fe',
+			'media': '.embedMedia__4e169',
+			'videoActions': '.embedVideoActions_e8f35c',
+			'imageContent': '.imageContent__0fe2a'
 		),
 		'codeContent': (
-			'container': '.container__8cab3',
-			'code': '.textContainer__709ff',
+			'container': '.container__10c80',
+			'code': '.textContainer__65f57',
 			'footer': (
-				'container': '.footer__06f4b',
-				'expand': '.toggleExpandSection__5dbd6',
-				'open': '.openFullPreviewSection__8cf92',
-				'gap': '.footerGap__9a0ad',
-				'name': '.attachmentName_b33bf1',
-				'size': '.formattedSize__07da1',
-				'download': '.downloadSection_a31362',
-				'downloadButton': '.downloadButton__620ea',
-				'language': '.codeIcon__14a76'
+				'container': '.footer__90194',
+				'expand': '.toggleExpandSection__22220',
+				'open': '.openFullPreviewSection__4a973',
+				'gap': '.footerGap_e4a082',
+				'name': '.attachmentName__9ecc9',
+				'size': '.formattedSize__44417',
+				'download': '.downloadSection__849a6',
+				'downloadButton': '.downloadButton__91f0f',
+				'language': '.codeIcon_f2e957'
 			)
 		),
 		'reactions': (
-			'container': '.reactions_fba1d8',
-			'reaction': '.reaction_b90ab0',
-			'inner': '.reactionInner__00d5f',
-			'count': '.reactionCount__60448',
+			'container': '.reactions__2ede2',
+			'reaction': '.reaction_ef7e09',
+			'inner': '.reactionInner_d6d30f',
+			'count': '.reactionCount_b780c8',
 			'emoji': '.emoji'
 		),
 		'emoji': (
-			'container': '.emojiContainer__4a804',
+			'container': '.emojiContainer__8da7f',
 			'image': '.emoji',
 			'jumbo': '.jumboable'
 		),
 		'actions': (
-			'container': '.buttonContainer_dd4b62',
-			'buttons': '.buttons__3766a',
-			'wrapper': '.wrapper_c727b6',
-			'button': '.button_d553e5',
-			'icon': '.icon_d1ac81'
+			'container': '.buttonContainer__6de7e',
+			'buttons': '.buttons__36852',
+			'wrapper': '.wrapper__4e6b6',
+			'button': '.button_d4bf9b',
+			'icon': '.icon_e3aee9'
 		),
 		'textbox': (
-			'container': '.form__13a2c',
-			'channelTextarea': '.channelTextArea__2e60f',
-			'scroller': '.scrollableContainer__33e06',
+			'container': '.form_d8a4a1',
+			'channelTextarea': '.channelTextArea_c2094b',
+			'scroller': '.scrollableContainer_ff917f',
 			'inner': '.inner__9fd0b',
 			'attach': (
-				'wrapper': '.attachWrapper__6354f',
-				'button': '.attachButton_b1db83',
-				'inner': '.attachButtonInner__3ce2b'
+				'wrapper': '.attachWrapper_d01704',
+				'button': '.attachButton__56f98',
+				'inner': '.attachButtonInner__84c26'
 			),
-			'textarea': '.textArea__74543',
-			'placeholder': '.placeholder_e68c63',
-			'slate': '.slateTextArea__0661c',
+			'textarea': '.textArea_a86690',
+			'placeholder': '.placeholder_dec8c7',
+			'slate': '.slateTextArea_b19976',
 			'buttons': (
-				'container': '.buttons_ce5b56',
-				'button': '.button_afdfd9',
-				'contents': '.contents_fb6220',
-				'wrapper': '.buttonWrapper__69593',
-				'emoji': '.emojiButton__8ff6a',
+				'container': '.buttons__7ecff',
+				'button': '.button__581d0',
+				'contents': '.contents__322f4',
+				'wrapper': '.buttonWrapper_bd4bd7',
+				'emoji': '.emojiButton__176c8',
 				'sprite': '.sprite__294b3',
-				'sticker': '.stickerButton__8af38'
+				'sticker': '.stickerButton_c02bc0'
 			),
 			'typing': (
 				'container': '.typing__6fd1d',
-				'dots': '.typingDots_d92d42',
-				'ellipsis': '.ellipsis__00ccd',
-				'text': '.text_ca54e9'
+				'dots': '.typingDots__0448d',
+				'ellipsis': '.ellipsis_bc2e27',
+				'text': '.text_eb454c'
 			),
 			'cooldown': (
-				'container': '.cooldownWrapper_de448f',
-				'slowIcon': '.slowModeIcon__987e1'
+				'container': '.cooldownWrapper__193b2',
+				'slowIcon': '.slowModeIcon__2967f'
 			)
 		),
 		'announcement': (
-			'textbox': '.wrapper_fbbb73',
-			'content': '.content_cecbc1',
-			'image': '.image__04423',
-			'text': '.text__7e783',
-			'buttonContainer': '.buttonContainer__1c00c',
-			'button': '.button__2b3a3'
+			'textbox': '.wrapper__57349',
+			'content': '.content__98536',
+			'image': '.image__7ea68',
+			'text': '.text_d4ca9a',
+			'buttonContainer': '.buttonContainer__1b685',
+			'button': '.button__4306a'
 		),
 		'altchat': (
-			'container': '.container_def45c',
+			'container': '.container__694a1',
 			'chat': '.chat__4eed1',
-			'chatContent': '.chatContent__5dca8',
-			'divider': '.divider_ffec75',
+			'chatContent': '.chatContent_f087cb',
+			'divider': '.divider__4df9f',
 			'followBar': (
-				'container': '.container__8ee50',
-				'buttons': '.buttons__1995d',
-				'button': '.button__59d49'
+				'container': '.container__68e43',
+				'buttons': '.buttons_ef8915',
+				'button': '.button_c99026'
 			)
 		)
 	),
@@ -374,7 +374,7 @@ $classmap: (
 		'container': '.container-3wLKDe',
 		'list': (
 			'container': '.list-3FIpnh',
-			'content': '.content__23cab'
+			'content': '.content__690c5'
 		),
 		'header': (
 			'container': '.header-1Uy0p6',
@@ -385,7 +385,7 @@ $classmap: (
 			'inputWrapper': '.inputWrapper-1YNMmM',
 			'row': '..headerRow-1MKoR-'
 		),
-		'row': '.row__4daf2',
+		'row': '.row__9e25f',
 		'card': (
 			'container': '.container-2qVG6q',
 			'left': '.left-r1N3TH',
@@ -416,7 +416,7 @@ $classmap: (
 			),
 			'divider': '.bullet-3kDmK0',
 			'date': '.text-sm-normal-3Zj3Iv',
-			'selected': '.selected_dc72d1'
+			'selected': '.selected__50db4'
 		),
 		'sidebar': (
 			'container': '.sidebarCard-1Gn1ch',
@@ -424,37 +424,37 @@ $classmap: (
 		)
 	),
 	'members': (
-		'container': '.container_b2ce9c',
-		'wrap': '.membersWrap__90226',
-		'scroller': '.members__9f47b',
-		'content': '.content__23cab',
-		'header': '.membersGroup__85843'
+		'container': '.container_f79ab4',
+		'wrap': '.membersWrap__5ca6b',
+		'scroller': '.members__573eb',
+		'content': '.content__690c5',
+		'header': '.membersGroup_cad095'
 	),
 	'member': (
 		'container': '.member_aa4760',
 		'layout': '.layout_bb8e67',
 		'avatar': '.avatar__6337f',
-		'content': '.content_a6999d',
-		'nameAndDecorators': '.nameAndDecorators_e34d47',
-		'name': '.name__16feb',
+		'content': '.content_e8a0d1',
+		'nameAndDecorators': '.nameAndDecorators__389dd',
+		'name': '.name__7afe8',
 		'username': (
 			'outer': '.username-u-ebrn',
-			'inner': '.username__11d8c'
+			'inner': '.username_ab1e31'
 		),
-		'subText': '.subText_ab7e13',
-		'selected': '.selected__9800b'
+		'subText': '.subText__4629e',
+		'selected': '.selected__7f4cb'
 	),
 	'popout': (
 		'menu': (
-			'container': '.menu_dc52c6',
-			'scroller': '.scroller__750f5',
+			'container': '.menu__088f7',
+			'scroller': '.scroller__8f066',
 			'group': '[role="group"]',
-			'separator': '.separator__18122',
+			'separator': '.separator__174fc',
 			'quickReactions': (
-				'container': '.wrapper__2e846',
+				'container': '.wrapper__01a96',
 				'item': '.customItem-2CxBSo',
-				'button': '.button__3ecb4',
-				'icon': '.icon_babf0a'
+				'button': '.button_bfb8e1',
+				'icon': '.icon_a88807'
 			),
 			'sub': (
 				'container': '.submenuContainer-3EVTeH',
@@ -467,29 +467,29 @@ $classmap: (
 				'arrow': '.arrow_cb03b8',
 				'colourDefault': '.colorDefault-CDqZdO',
 				'colourDanger': '.colorDanger-3n-KnP',
-				'focused': '.focused__27621',
-				'hideInteraction': '.hideInteraction__2790e'
+				'focused': '.focused_dcafb9',
+				'hideInteraction': '.hideInteraction__0b569'
 			)
 		),
 		'user': (
-			'outer': '.userPopoutOuter_d739b2',
-			'inner': '.userPopoutInner_f545a3',
-			'avatarWrapper': '.avatarWrapper_f77579',
-			'avatarNormal': '.avatarWrapperNormal__0bddb',
+			'outer': '.userPopoutOuter__3884e',
+			'inner': '.userPopoutInner_e90432',
+			'avatarWrapper': '.avatarWrapper__0cd44',
+			'avatarNormal': '.avatarWrapperNormal__36eec',
 			'section': '.section-3FmfOT',
-			'divider': '.divider_ed0c1d',
-			'badges': '.profileBadges__7a7cb',
+			'divider': '.divider_e6f9ab',
+			'badges': '.profileBadges__1f2ab',
 			'badge': '.clickable-28QF7i',
 			'badgeImage': '.profileBadge22-3OAigE',
-			'nameTag': '.nameTag__693ff',
+			'nameTag': '.nameTag__1d385',
 			'messageContainer': '.messageInputContainer-2rGDH8',
 			'scroller': '.scroller-1jBQYo',
-			'discrim': '.discrimBase_e0c4c5',
+			'discrim': '.discrimBase__5555e',
 			'discrimNoNick': '.userTagDiscriminatorNoNickname-2HLaIE',
-			'nickName': 'nickname__3d1d7'
+			'nickName': 'nickname_db3773'
 		),
 		'currentUser': (
-			'wrapper': '.accountProfilePopoutWrapper_af829a'
+			'wrapper': '.accountProfilePopoutWrapper_d4887f'
 		),
 		'statusPicker': (
 			'item': '.statusItem-2a1giL',
@@ -499,20 +499,20 @@ $classmap: (
 	),
 	'profile': (
 		'banner': '.banner__6d414',
-		'bannerWrapper': '.bannerSVGWrapper__3e7b0',
-		'overlay': '.overlayBackground__86b78',
-		'outerThemed': '.userProfileOuterUnthemed__48723',
-		'inner': '.userProfileInner__8065b',
-		'innerNonPremium': '.userProfileInnerThemedNonPremium__3d0a6',
-		'innerWithBanner': '.userProfileInnerThemedWithBanner_d5f991',
-		'innerWithoutBanner': '.userProfileInnerThemedPremiumWithoutBanner__703b1'
+		'bannerWrapper': '.bannerSVGWrapper__8a38c',
+		'overlay': '.overlayBackground__2666e',
+		'outerThemed': '.userProfileOuterUnthemed_e14365',
+		'inner': '.userProfileInner__61cc1',
+		'innerNonPremium': '.userProfileInnerThemedNonPremium_ed9022',
+		'innerWithBanner': '.userProfileInnerThemedWithBanner__2152d',
+		'innerWithoutBanner': '.userProfileInnerThemedPremiumWithoutBanner__3705a'
 	),
 	'modal': (
 		'layerContainer': '.layerContainer-2v_Sit',
-		'backdrop': '.backdrop__7e89b',
-		'withLayer': '.withLayer__1fe9d',
+		'backdrop': '.backdrop__1a911',
+		'withLayer': '.withLayer__29ace',
 		'layer': '.layer-1Ixpg3',
-		'focusLock': '.focusLock__10aa5',
+		'focusLock': '.focusLock__28507',
 		'root': '.root_a28985',
 		'user': (
 			'root': '.root-2uUafN',
@@ -528,7 +528,7 @@ $classmap: (
 			'body': '.body-_QAKrE',
 			'details': '.container-3g15px',
 			'nameTag': '.nameTag-2ysfG3',
-			'username': '.username__2cac3',
+			'username': '.username__7d629',
 			'discrim': '.discriminator-hnHkyt',
 			'customStatusText': '.customStatusText-3ca2B1',
 			'customStatus': '.customStatus-3QV7IG',
@@ -536,7 +536,7 @@ $classmap: (
 			'divider': '.divider-1NpGam',
 			'list': (
 				'scroller': '.listScroller-XCVa1H',
-				'row': '.listRow__60937',
+				'row': '.listRow__50619',
 				'avatar': '.listAvatar-2GhWlb',
 				'content': '.listRowContent-3fhsZ_',
 				'name': '.listName-3bDgY6',
@@ -556,7 +556,7 @@ $classmap: (
 				'text': '.userInfoText-3GOMzH',
 				'memberSince': '.memberSinceContainer-3biwiY',
 				'note': '.note-3M15gE',
-				'textarea': '.textarea_c5a7a3'
+				'textarea': '.textarea__0461c'
 			),
 			'relations': (
 				'container': '.relationshipButtons-3ByBpj',
@@ -568,58 +568,58 @@ $classmap: (
 				'container': '.tabBarContainer-sCZC4w',
 				'tabBar': '.tabBar-2StdUa',
 				'item': '.tabBarItem-3VvT2z',
-				'selected': '.selected__5711d'
+				'selected': '.selected_a523ff'
 			)
 		)
 	),
 	'status': (
 		'avatar': '.wrapper-1VLyxH',
-		'mask': '.mask__1979f',
-		'svg': '.svg_f5b652'
+		'mask': '.mask_d5067d',
+		'svg': '.svg_a6bf1c'
 	),
 	'settings': (
-		'layer': '.layer__2efaa :not(.baseLayer__8fda3)',
-		'auto': '.auto__76cc7',
-		'scroller': '.contentRegionScroller__86c79',
-		'scrollerBase': '.scrollerBase__2b744',
+		'layer': '.layer_f7d46a :not(.baseLayer__2b890)',
+		'auto': '.auto__020ac',
+		'scroller': '.contentRegionScroller__9ae20',
+		'scrollerBase': '.scrollerBase__65223',
 		'sidebar': (
-			'container': '.sidebar__9e3e2',
-			'region': '.sidebarRegion__60457',
-			'scroller': '.sidebarRegionScroller__1fa7e',
+			'container': '.sidebar__02e8d',
+			'region': '.sidebarRegion__36437',
+			'scroller': '.sidebarRegionScroller__8113e',
 			'side': '.side_b4b3f6',
-			'header': '.header_f72511',
+			'header': '.header__71a82',
 			'item': '.item__48dda',
-			'selected': '.selected__5711d',
-			'separator': '.separator_fdbcfd',
-			'premium': '.premiumTab__57bdc',
-			'premiumLabel': '.premiumLabel_f2cd55',
-			'socials': '.socialLinks_c1fc99',
+			'selected': '.selected_a523ff',
+			'separator': '.separator_d14fb1',
+			'premium': '.premiumTab_ad0913',
+			'premiumLabel': '.premiumLabel__68f78',
+			'socials': '.socialLinks_dbdd6f',
 			'socialsLink': '.anchor-1MIwyf',
 			'info': '.info__755e1',
-			'infoLine': '.line__75801',
-			'badge': '.textBadge__45d79'
+			'infoLine': '.line_cdcacc',
+			'badge': '.textBadge_f05120'
 		)
 	),
 	'tooltip': (
 		'container': '.tooltip-14MtrL',
 		'right': '.tooltipRight-2TSb42',
-		'bottom': '.tooltipBottom_ba4564',
-		'primary': '.tooltipPrimary_e5c00d',
-		'pointer': '.tooltipPointer_a79354',
-		'content': '.tooltipContent__79a2d',
+		'bottom': '.tooltipBottom__39dfe',
+		'primary': '.tooltipPrimary__51b23',
+		'pointer': '.tooltipPointer_f7411c',
+		'content': '.tooltipContent_adb6d5',
 		'guilds': (
-			'container': '.listItemTooltip_b1b92d',
-			'rowName': '.rowGuildName__29d8a',
-			'name': '.guildNameText__16f3c',
-			'muted': '.muteText_dc1e9a'
+			'container': '.listItemTooltip_e19493',
+			'rowName': '.rowGuildName__6b00c',
+			'name': '.guildNameText__2c549',
+			'muted': '.muteText__8f07b'
 		)
 	),
 	'roles': (
 		'root': '.root_a99273',
 		'roles': '.roles-3zC7MX',
-		'role': '.role__631a3',
-		'circle': '.roleCircle_bae511',
-		'name': '.roleName_d19d33'
+		'role': '.role_d81130',
+		'circle': '.roleCircle__61ad8',
+		'name': '.roleName__851c9'
 	),
 	'input': (
 		'container': '.input-2g-os5',
@@ -631,8 +631,8 @@ $classmap: (
 		'default': '.inputDefault-3FGxgL'
 	),
 	'buttons': (
-		'button': '.button_afdfd9',
-		'content': '.contents_fb6220',
+		'button': '.button__581d0',
+		'content': '.contents__322f4',
 		'look': (
 			'filled': '.lookFilled-yCfaCM',
 			'link': '.lookLink-15mFoz',
@@ -642,13 +642,13 @@ $classmap: (
 			'small': '.sizeSmall-wU2dO-'
 		),
 		'colour': (
-			'brand': '.colorBrand_b2253e',
-			'brandNew': '.colorBrandNew_fd170a',
-			'primary': '.colorPrimary__6ed40',
-			'red': '.colorRed_d6b062',
-			'green': '.colorGreen__5f181',
-			'white': '.colorWhite__43488',
-			'lookBlank': '.lookBlank__7ca0a'
+			'brand': '.colorBrand__27d57',
+			'brandNew': '.colorBrandNew__8872c',
+			'primary': '.colorPrimary_ebe632',
+			'red': '.colorRed__5a617',
+			'green': '.colorGreen__75c93',
+			'white': '.colorWhite__0033e',
+			'lookBlank': '.lookBlank_a5b4ca'
 		)
 	)
 );
