@@ -2,7 +2,7 @@ $classmap: (
 	'mount': '#app-mount',
 	'common': (
 		'overflow': '.overflow_c74e70',
-		'clickable': '.clickable_ec86aa',
+		'clickable': '.clickable_f9f2ca',
 		'pointer': '.cursorPointer-B3uwDA',
 		'flex': '.flex_bba380',
 		'mode': (
@@ -49,7 +49,7 @@ $classmap: (
 			'icon': '.icon__11cf1',
 			'svg': '.svg_c5f96a',
 			'pill': '.pill_f9623d',
-			'pillItem': '.item_fd07a3',
+			'pillItem': '.item_c4cd66',
 			'addJoin': '.tutorialContainer_c96c45',
 			'circleButton': '.circleIconButton_db6521',
 			'circleIcon': '.circleIcon_db6521',
@@ -169,19 +169,19 @@ $classmap: (
 		)
 	),
 	'title': (
-		'container': '.container_e44302',
+		'container': '.container_fc4f04',
 		'children': (
-			'container': '.children_e44302',
-			'titleWrapper': '.titleWrapper_e44302',
-			'title': '.title_e44302',
-			'divider': '.divider_e44302',
+			'container': '.children_fc4f04',
+			'titleWrapper': '.titleWrapper_fc4f04',
+			'title': '.title_fc4f04',
+			'divider': '.divider_fc4f04',
 			'topic': '.topic_bf3bbb'
 		),
 		'toolbar': (
-			'container': '.toolbar_e44302',
+			'container': '.toolbar_fc4f04',
 			'icon': '.icon_f542fc',
-			'iconWrapper': '.iconWrapper_e44302',
-			'selected': '.selected_e44302'
+			'iconWrapper': '.iconWrapper_fc4f04',
+			'selected': '.selected_fc4f04'
 		),
 		'search': (
 			'outer': '.search_ff5f90',
@@ -229,10 +229,10 @@ $classmap: (
 			)
 		),
 		'reply': (
-			'container': '.repliedMessage_ec86aa',
-			'avatar': '.replyAvatar_ec86aa',
-			'username': '.username_ec86aa',
-			'text': '.repliedTextPreview_ec86aa'
+			'container': '.repliedMessage_f9f2ca',
+			'avatar': '.replyAvatar_f9f2ca',
+			'username': '.username_f9f2ca',
+			'text': '.repliedTextPreview_f9f2ca'
 		),
 		'messages': (
 			'container': '.chatContent_a7d72e',
@@ -245,27 +245,27 @@ $classmap: (
 		),
 		'divider': (
 			'container': '.divider_d5deea',
-			'content': '.content_fc5f50',
-			'unread': '.isUnread_fc5f50'
+			'content': '.content_c2654d',
+			'unread': '.isUnread_c2654d'
 		),
 		'message': (
 			'container': '.message_d5deea',
 			'listItem': '.messageListItem_d5deea',
 			'cozy': '.cozyMessage_d5deea',
-			'content': '.contents_ec86aa',
-			'avatar': '.avatar_ec86aa',
-			'header': '.header_ec86aa',
-			'headerText': '.headerText_ec86aa',
-			'username': '.username_ec86aa',
-			'timestamp': '.timestamp_ec86aa',
-			'timestampInline': '.timestampInline_ec86aa',
-			'markup': '.markup_d6076c',
+			'content': '.contents_f9f2ca',
+			'avatar': '.avatar_f9f2ca',
+			'header': '.header_f9f2ca',
+			'headerText': '.headerText_f9f2ca',
+			'username': '.username_f9f2ca',
+			'timestamp': '.timestamp_f9f2ca',
+			'timestampInline': '.timestampInline_f9f2ca',
+			'markup': '.markup_f8f345',
 			'groupStart': '.groupStart_d5deea',
 			'selected': '.selected_d5deea',
 			'replying': '.replying_d5deea',
 			'mentioned': '.mentioned_d5deea',
-			'edited': '.edited_ec86aa',
-			'timestampHover': '.timestampVisibleOnHover_ec86aa'
+			'edited': '.edited_f9f2ca',
+			'timestampHover': '.timestampVisibleOnHover_f9f2ca'
 		),
 		'embed': (
 			'wrapper': '.embedWrapper_b558d0',
@@ -311,7 +311,7 @@ $classmap: (
 			'jumbo': '.jumboable'
 		),
 		'actions': (
-			'container': '.buttonContainer_ec86aa',
+			'container': '.buttonContainer_f9f2ca',
 			'buttons': '.buttons_d5deea',
 			'wrapper': '.wrapper_ef319f',
 			'button': '.button_ef319f',
@@ -616,7 +616,7 @@ $classmap: (
 	),
 	'roles': (
 		'root': '.root_e4010c',
-		'roles': '.roles-3zC7MX',
+		'roles': '.roles_fa2f72',
 		'role': '.role_f9575e',
 		'circle': '.roleCircle_a26d7b',
 		'name': '.roleName_e4010c'
