@@ -1,10 +1,10 @@
 $classmap: (
 	'mount': '#app-mount',
 	'common': (
-		'overflow': '.overflow_c74e70',
+		'overflow': '.overflow_a82120',
 		'clickable': '.clickable_f9f2ca',
 		'pointer': '.cursorPointer-B3uwDA',
-		'flex': '.flex_bba380',
+		'flex': '.flex_dc333f',
 		'mode': (
 			'mouse': '.mouse-mode'
 		),
@@ -95,7 +95,7 @@ $classmap: (
 			'user': '.channel_c91bad',
 			'interactive': '.interactive_f5eb4b',
 			'interactiveSelected': '.interactiveSelected_c91bad',
-			'layout': '.layout_f9647d',
+			'layout': '.layout_ec8679',
 			'selected': '.selected_f5eb4b'
 		),
 		'channels': (
@@ -142,7 +142,7 @@ $classmap: (
 				'name': '.nameTag_b2ca13',
 				'username': '.usernameContainer__22048',
 				'title': '.title_d1da5f',
-				'tag': '.subtext_e06aad'
+				'tag': '.subtext_be40e6'
 			)
 		),
 		'connected': (
@@ -156,8 +156,8 @@ $classmap: (
 				'label': '.labelWrapper_c0cb95',
 				'labelButton': '.statusWithPopout_adcaac',
 				'channel': '.channel_adcaac',
-				'buttons': '.connection_adcaac > .flex_bba380',
-				'button': '.button_f67531',
+				'buttons': '.connection_adcaac > .flex_dc333f',
+				'button': '.button_adca65',
 				'buttonContents': '.contents_dd4f85'
 			),
 			'actions': (
@@ -313,8 +313,8 @@ $classmap: (
 		'actions': (
 			'container': '.buttonContainer_f9f2ca',
 			'buttons': '.buttons_d5deea',
-			'wrapper': '.wrapper_ef319f',
-			'button': '.button_ef319f',
+			'wrapper': '.wrapper_f7e168',
+			'button': '.button_f7e168',
 			'icon': '.icon_a3b500'
 		),
 		'textbox': (
@@ -432,17 +432,17 @@ $classmap: (
 	),
 	'member': (
 		'container': '.member_a31c43',
-		'layout': '.layout_e9f61e',
-		'avatar': '.avatar_e9f61e',
-		'content': '.content_e9f61e',
-		'nameAndDecorators': '.nameAndDecorators_e9f61e',
-		'name': '.name_e9f61e',
+		'layout': '.layout_d808b0',
+		'avatar': '.avatar_d808b0',
+		'content': '.content_d808b0',
+		'nameAndDecorators': '.nameAndDecorators_d808b0',
+		'name': '.name_d808b0',
 		'username': (
 			'outer': '.username-u-ebrn',
 			'inner': '.username_a31c43'
 		),
-		'subText': '.subText_e9f61e',
-		'selected': '.selected_e9f61e'
+		'subText': '.subText_d808b0',
+		'selected': '.selected_d808b0'
 	),
 	'popout': (
 		'menu': (
