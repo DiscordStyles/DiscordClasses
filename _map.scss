@@ -3,7 +3,6 @@ $classmap: (
 	'common': (
 		'overflow': '.overflow__82b15',
 		'clickable': '.clickable_c19a55',
-		'pointer': '.cursorPointer-B3uwDA',
 		'flex': '.flex__7c0ba',
 		'mode': (
 			'mouse': '.mouse-mode'
@@ -13,7 +12,6 @@ $classmap: (
 		)
 	),
 	'app': (
-		'devToolsWrapper': '.appDevToolsWrapper-1QxdQf',
 		'outer': '.app_a3002d',
 		'inner': '.app__160d8',
 		'bg': '.bg__960e4',
@@ -84,7 +82,6 @@ $classmap: (
 			'children': '.headerChildren_f37cb1',
 			'icon': '.button__353c4',
 			'selected': '.selected_f37cb1',
-			'bannerImage': '.bannerImage-ubW8K',
 			'bannerImg': '.bannerImg_f37cb1',
 			'animatedContainer': '.animatedContainer_f37cb1',
 			'search': '.searchBar__35e86'
@@ -118,14 +115,11 @@ $classmap: (
 			'unread': '.modeUnreadImportant__2ea32',
 			'muted': '.modeMuted__2ea32',
 			'content': '.wrapper__2ea32',
-			'mainContent': '.mainContent-20q_Hp',
 			'iconContainer': '.iconContainer__2ea32',
 			'icon': '.icon__2ea32',
 			'iconItem': '.iconItem_c69b6d',
 			'name': '.name__2ea32',
-			'channelName': '.channelName-3KPsGw',
 			'unreadPill': '.unread__2ea32',
-			'openChat': '.openChatIconItem-2kj5qO',
 			'connected': '.modeConnected__2ea32'
 		),
 		'threads': (
@@ -138,7 +132,6 @@ $classmap: (
 			'user': (
 				'container': '.container__37e49',
 				'avatarWrapper': '.avatarWrapper__37e49',
-				'avatar': '.wrapper-1VLyxH',
 				'name': '.nameTag__37e49',
 				'username': '.usernameContainer__22048',
 				'title': '.title_d1da5f',
@@ -189,14 +182,7 @@ $classmap: (
 			'bar': '.searchBar__97492',
 			'icon': '.icon__97492',
 			'iconContainer': '.iconContainer_fea832',
-			'iconVisible': '.visible_fea832',
-			'draftEditor': (
-				'root': '.DraftEditor-root',
-				'placeholder': '.public-DraftEditorPlaceholder-root',
-				'placeholderInner': '.public-DraftEditorPlaceholder-inner',
-				'editor': '.DraftEditor-editorContainer',
-				'content': '.public-DraftEditor-content'
-			)
+			'iconVisible': '.visible_fea832'
 		)
 	),
 	'chat': (
@@ -224,8 +210,7 @@ $classmap: (
 				'attachedBars': '.stackedBars__74017',
 				'clip': '.clipContainer__841c8',
 				'bar': '.replyBar__841c8',
-				'label': '.replyLabel__841c8',
-				'username': '.username-u-ebrn'
+				'label': '.replyLabel__841c8'
 			)
 		),
 		'reply': (
@@ -371,56 +356,16 @@ $classmap: (
 		)
 	),
 	'forum': (
-		'container': '.container-3wLKDe',
 		'list': (
-			'container': '.list-3FIpnh',
 			'content': '.content__99f8c'
-		),
-		'header': (
-			'container': '.header-1Uy0p6',
-			'titleContainer': '.titleContainer-2YK93J',
-			'icon': '.prefixElement-1U4XhR',
-			'searchIcon': '.searchIcon-2Nw0OL',
-			'form': '.container-JhuCwn',
-			'inputWrapper': '.inputWrapper-1YNMmM',
-			'row': '..headerRow-1MKoR-'
 		),
 		'row': '.row__76f04',
 		'card': (
-			'container': '.container-2qVG6q',
-			'left': '.left-r1N3TH',
-			'body': '.body-hCVwsC',
-			'unread': '.hasUnreads-3kKLnS',
-			'tags': '.tags-2CaEuN',
 			'tag': (
-				'container': '.pill_a2c9e8',
-				'text': '.text-sm-semibold-3TWn25'
+				'container': '.pill_a2c9e8'
 			),
-			'header': '.header-2W779F',
-			'headerText': '.headerText-3MQ6n4',
-			'title': '.postTitleText-2ARr84',
 			'emoji': '.emoji__1c948',
-			'new': (
-				'wrapper': '.newBadgeWrapper-J629On',
-				'badge': '.newBadge-1LcB6t'
-			),
-			'message': (
-				'text': '.message-1zs6Od',
-				'author': '.author-22H8ZU'
-			),
-			'footer': '.footer-3dzxcR',
-			'counter': (
-				'container': '.messageCountBox-XEP63e',
-				'icon': '.messageCountIcon-2CvKyY',
-				'number': '.messageCountText-J-9pag'
-			),
-			'divider': '.bullet-3kDmK0',
-			'date': '.text-sm-normal-3Zj3Iv',
 			'selected': '.selected_a2c9e8'
-		),
-		'sidebar': (
-			'container': '.sidebarCard-1Gn1ch',
-			'footer': '.container-2IhveL'
 		)
 	),
 	'members': (
@@ -437,10 +382,7 @@ $classmap: (
 		'content': '.content__91a9d',
 		'nameAndDecorators': '.nameAndDecorators__91a9d',
 		'name': '.name__91a9d',
-		'username': (
-			'outer': '.username-u-ebrn',
-			'inner': '.username__5d473'
-		),
+		'username': '.username__5d473',
 		'subText': '.subText__91a9d',
 		'selected': '.selected__91a9d'
 	),
@@ -452,21 +394,12 @@ $classmap: (
 			'separator': '.separator_c1e9c4',
 			'quickReactions': (
 				'container': '.wrapper_f563df',
-				'item': '.customItem-2CxBSo',
 				'button': '.button_f563df',
 				'icon': '.icon_f563df'
 			),
-			'sub': (
-				'container': '.submenuContainer-3EVTeH',
-				'padding': '.submenuPaddingContainer-_k62dJ'
-			),
 			'item': (
 				'container': '.item_c1e9c4',
-				'label': '.label-2gNW3x',
-				'iconContainer': '.iconContainer-1-SsTR',
 				'arrow': '.arrow_d64d50',
-				'colourDefault': '.colorDefault-CDqZdO',
-				'colourDanger': '.colorDanger-3n-KnP',
 				'focused': '.focused_c1e9c4',
 				'hideInteraction': '.hideInteraction_c1e9c4'
 			)
@@ -476,26 +409,15 @@ $classmap: (
 			'inner': '.userPopoutInner_c69a7b',
 			'avatarWrapper': '.avatarWrapper_f89da9',
 			'avatarNormal': '.avatarWrapperNormal_f89da9',
-			'section': '.section-3FmfOT',
 			'divider': '.divider_e6f9ab',
 			'badges': '.profileBadges_f89da9',
-			'badge': '.clickable-28QF7i',
-			'badgeImage': '.profileBadge22-3OAigE',
 			'nameTag': '.nameTag__05e81',
-			'messageContainer': '.messageInputContainer-2rGDH8',
-			'scroller': '.scroller-1jBQYo',
 			'discrim': '.discrimBase_c9ccf6',
-			'discrimNoNick': '.userTagDiscriminatorNoNickname-2HLaIE',
 			'nickName': 'nickname_c9ccf6'
 		),
 		'currentUser': (
 			'wrapper': '.accountProfilePopoutWrapper__37e49'
 		),
-		'statusPicker': (
-			'item': '.statusItem-2a1giL',
-			'text': '.status-qmUf7L',
-			'description': '.description-22_U3B'
-		)
 	),
 	'profile': (
 		'banner': '.banner__68edb',
@@ -508,72 +430,27 @@ $classmap: (
 		'innerWithoutBanner': '.userProfileInnerThemedPremiumWithoutBanner_c69a7b'
 	),
 	'modal': (
-		'layerContainer': '.layerContainer-2v_Sit',
 		'backdrop': '.backdrop__1a911',
 		'withLayer': '.withLayer__29ace',
-		'layer': '.layer-1Ixpg3',
 		'focusLock': '.focusLock__49fc1',
 		'root': '.root__49fc1',
 		'user': (
-			'root': '.root-2uUafN',
-			'outer': '.userProfileModalOuter-1FYL8T',
-			'inner': '.userProfileModalInner-3fh3QA',
-			'overlay': '.userProfileModalOverlayBackground-8p3-eU',
-			'top': '.topSection-1Khgkv',
-			'header': '.header-1_vWwx',
-			'headerTop': '.headerTop-212g15',
-			'badges': '.badgeList-2aoHPw',
-			'badge': '.clickable-28QF7i',
-			'badgeImage': '.profileBadge24-3UMhUO',
-			'body': '.body-_QAKrE',
-			'details': '.container-3g15px',
-			'nameTag': '.nameTag-2ysfG3',
 			'username': '.username__05e81',
-			'discrim': '.discriminator-hnHkyt',
-			'customStatusText': '.customStatusText-3ca2B1',
-			'customStatus': '.customStatus-3QV7IG',
-			'customStatusEmoji': '.customStatusEmoji-3wK_iB',
-			'divider': '.divider-1NpGam',
 			'list': (
-				'scroller': '.listScroller-XCVa1H',
 				'row': '.listRow__9d78f',
-				'avatar': '.listAvatar-2GhWlb',
-				'content': '.listRowContent-3fhsZ_',
-				'name': '.listName-3bDgY6',
-				'user': (
-					'avatar': '.listAvatar-2GhWlb',
-					'discrim': '.listDiscriminator-2XvfH2'
-				),
-				'guild': (
-					'nick': '.guildNick-HT7Pgu',
-					'avatar': '.guildAvatar-1UOAAy'
-				)
 			),
 			'info': (
-				'scroller': '.infoScroller-3MqKC5',
-				'section': '.userInfoSection-1gptv0',
-				'header': '.userInfoSectionHeader-48g5Qj',
-				'text': '.userInfoText-3GOMzH',
-				'memberSince': '.memberSinceContainer-3biwiY',
-				'note': '.note-3M15gE',
 				'textarea': '.textarea_dde0a8'
 			),
 			'relations': (
-				'container': '.relationshipButtons-3ByBpj',
-				'action': '.actionButton-iarQTd',
-				'more': 'div[class][role="button"]',
-				'moreIcon': '.additionalActionsIcon-3Cy8UU'
+				'more': 'div[class][role="button"]'
 			),
 			'tabBar': (
-				'container': '.tabBarContainer-sCZC4w',
-				'tabBar': '.tabBar-2StdUa',
-				'item': '.tabBarItem-3VvT2z',
 				'selected': '.selected_b3f026'
 			)
 		)
 	),
 	'status': (
-		'avatar': '.wrapper-1VLyxH',
 		'mask': '.mask__44b0c',
 		'svg': '.svg__44b0c'
 	),
@@ -594,15 +471,12 @@ $classmap: (
 			'premium': '.premiumTab__581ea',
 			'premiumLabel': '.premiumLabel_e681d1',
 			'socials': '.socialLinks__7df54',
-			'socialsLink': '.anchor-1MIwyf',
 			'info': '.info__2debe',
 			'infoLine': '.line__2debe',
 			'badge': '.textBadge_f05120'
 		)
 	),
 	'tooltip': (
-		'container': '.tooltip-14MtrL',
-		'right': '.tooltipRight-2TSb42',
 		'bottom': '.tooltipBottom__382e7',
 		'primary': '.tooltipPrimary__382e7',
 		'pointer': '.tooltipPointer__382e7',
@@ -621,26 +495,9 @@ $classmap: (
 		'circle': '.roleCircle__4f569',
 		'name': '.roleName__48c1c'
 	),
-	'input': (
-		'container': '.input-2g-os5',
-		'wrapper': '.inputWrapper-BB4B-',
-		'iconPrefix': '.inputPrefix-1HHwWv',
-		'multiInput': '.multiInput-1VARjC',
-		'multiInputLast': '.multiInputLast-35zVz0',
-		'multiField': '.multiInputField-1zyopx',
-		'default': '.inputDefault-3FGxgL'
-	),
 	'buttons': (
 		'button': '.button__201d5',
 		'content': '.contents__201d5',
-		'look': (
-			'filled': '.lookFilled-yCfaCM',
-			'link': '.lookLink-15mFoz',
-			'outline': '.lookOutlined-3yKVGo'
-		),
-		'size': (
-			'small': '.sizeSmall-wU2dO-'
-		),
 		'colour': (
 			'brand': '.colorBrand__201d5',
 			'brandNew': '.colorBrandNew__8872c',
