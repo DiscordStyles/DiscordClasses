@@ -1,9 +1,12 @@
 $classmap: (
 	'mount': '#app-mount',
+	'titleBar': '.bar_c38106',
 	'common': (
 		'overflow': '.overflow__82b15',
 		'clickable': '.clickable_c19a55',
+		'scrollerBase': '.scrollerBase_d125d2',
 		'flex': '.flex__7c0ba',
+		'resizeHandle': '.resizeHandle__01ae2',
 		'mode': (
 			'mouse': '.mouse-mode'
 		),
@@ -16,16 +19,10 @@ $classmap: (
 		'inner': '.app__160d8',
 		'bg': '.bg__960e4',
 		'layers': '.layers__960e4',
-		'layer': '.layer__960e4 ',
+		'layer': '.layer__960e4',
 		'baseLayer': '.baseLayer__960e4',
 		'base': '.base_c48ade',
-		'baseContent': '.content_c48ade'
-	),
-	'windows': (
-		'titleBar': '.typeWindows__421ed',
-		'wordMark': '.wordmarkWindows__421ed',
-		'button': '.winButton__421ed',
-		'close': '.winButtonClose__421ed'
+		'content': '.content_c48ade'
 	),
 	'guilds': (
 		'container': '.guilds_c48ade',
@@ -71,6 +68,7 @@ $classmap: (
 	),
 	'sidebar': (
 		'sidebar': '.sidebar_c48ade',
+		'sidebarList': '.sidebarList_c48ade',
 		'container': '.container__2637a',
 		'head': (
 			'container': '.container_f37cb1',
@@ -93,7 +91,8 @@ $classmap: (
 			'interactive': '.interactive_bf202d',
 			'interactiveSelected': '.interactiveSelected__972a0',
 			'layout': '.layout__20a53',
-			'selected': '.selected_bf202d'
+			'selected': '.selected_bf202d',
+			'searchBar': '.searchBar__5ec2f .inner_a45028'
 		),
 		'channels': (
 			'scroller': '.scroller__629e4',
@@ -110,7 +109,9 @@ $classmap: (
 		'channel': (
 			'container': '.containerDefault_c69b6d',
 			'containerSelected': '.selected_c69b6d',
+			'channelSelected': '.selectedChannel_c69b6d',
 			'wrapper': '.wrapper__2ea32',
+			'link': '.link__2ea32',
 			'selected': '.modeSelected__2ea32',
 			'unread': '.modeUnreadImportant__2ea32',
 			'muted': '.modeMuted__2ea32',
@@ -166,9 +167,7 @@ $classmap: (
 		'children': (
 			'container': '.children__9293f',
 			'titleWrapper': '.titleWrapper__9293f',
-			'title': '.title__9293f',
-			'divider': '.divider__9293f',
-			'topic': '.topic__6ec1a'
+			'title': '.title_f75fb0'
 		),
 		'toolbar': (
 			'container': '.toolbar__9293f',
@@ -182,7 +181,21 @@ $classmap: (
 			'bar': '.searchBar__97492',
 			'icon': '.icon__97492',
 			'iconContainer': '.iconContainer_fea832',
-			'iconVisible': '.visible_fea832'
+			'iconVisible': '.visible_fea832',
+			'searchContainer': '.resultsGroup__56fec',
+			'searchHeader': '.searchHeader_f3b986',
+			'searchResult': '.searchResult__02a39',
+			'searchFilter': '.searchFilter_bd8186',
+			'searchAnswer': '.searchAnswer_bd8186',
+			'queryHeader': '.queryContainer__55c99'
+		),
+		'inbox': (
+			'header': '.header_ab6641',
+			'messages': '.messages__1ccd1',
+			'messageContainer': '.messageContainer__95796',
+			'forYouContainer': '.container_a54d1d',
+			'unreadContainer': '.recentMentionsPopout__95796',
+			'channelHeader': '.channelHeader__35a7e'
 		)
 	),
 	'chat': (
@@ -196,6 +209,9 @@ $classmap: (
 				'content': '.span__0f481'
 			),
 			'jumpTo': '.jumpToPresentBar__0f481',
+			'accessory': '.accessoryBar__74017',
+			'accessoryLeft': '.accessoryBarLeft__74017',
+			'accessoryRight': '.accessoryBarRight__74017',
 			'attachments': (
 				'container': '.channelAttachmentArea_b77158',
 				'item': '.upload_aa605f',
@@ -211,6 +227,16 @@ $classmap: (
 				'clip': '.clipContainer__841c8',
 				'bar': '.replyBar__841c8',
 				'label': '.replyLabel__841c8'
+			),
+			'pins': (
+				'header': '.header__45690',
+				'footer': '.footer__45690',
+				'message': '.messageGroupCozy__45690'
+			),
+			'threads': (
+				'header': '.header_d9c882',
+				'searchBar': '.searchBox_d9c882',
+				'container': '.list_c441f0'
 			)
 		),
 		'reply': (
@@ -250,7 +276,8 @@ $classmap: (
 			'replying': '.replying__5126c',
 			'mentioned': '.mentioned__5126c',
 			'edited': '.edited_c19a55',
-			'timestampHover': '.timestampVisibleOnHover_c19a55'
+			'timestampHover': '.timestampVisibleOnHover_c19a55',
+			'latin24CompactTimeStamp': '.latin24CompactTimeStamp_c19a55'
 		),
 		'embed': (
 			'wrapper': '.embedWrapper_b7e1cb',
@@ -266,7 +293,8 @@ $classmap: (
 			'video': '.embedVideo__623de',
 			'media': '.embedMedia__623de',
 			'videoActions': '.embedVideoActions__623de',
-			'imageContent': '.imageContent__0f481'
+			'imageContent': '.imageContent__0f481',
+			'imageContainer': '.imageContainer__0f481'
 		),
 		'codeContent': (
 			'container': '.container__4d95d',
@@ -288,7 +316,8 @@ $classmap: (
 			'reaction': '.reaction_f8896c',
 			'inner': '.reactionInner_f8896c',
 			'count': '.reactionCount_f8896c',
-			'emoji': '.emoji'
+			'emoji': '.emoji',
+			'tooltip': '.reactionTooltip_b49891'
 		),
 		'emoji': (
 			'container': '.emojiContainer__75abc',
@@ -343,7 +372,7 @@ $classmap: (
 			'buttonContainer': '.buttonContainer__44df5',
 			'button': '.button__44df5'
 		),
-		'altchat': (
+		'thread': (
 			'container': '.container__01ae2',
 			'chat': '.chat_a44415',
 			'chatContent': '.chatContent_f75fb0',
@@ -353,9 +382,15 @@ $classmap: (
 				'buttons': '.buttons__34c2c',
 				'button': '.button__34c2c'
 			)
+		),
+		'browse': (
+			'container': '.pageBody__41ed7',
+			'channelRow': '.channelRow_e4503a',
+			'scroller': '.browser__41ed7 .scrollerInner_e4503a'
 		)
 	),
-	'forum': (
+	'thread': (
+		'main': '.mainCard_f369db',
 		'list': (
 			'content': '.content__99f8c'
 		),
@@ -370,6 +405,7 @@ $classmap: (
 	),
 	'members': (
 		'container': '.container_c8ffbb',
+		'clickable': '.clickable__91a9d',
 		'wrap': '.membersWrap_c8ffbb',
 		'scroller': '.members_c8ffbb',
 		'content': '.content__99f8c',
@@ -377,6 +413,8 @@ $classmap: (
 	),
 	'member': (
 		'container': '.member__5d473',
+		'childContainer': '.childContainer__91a9d',
+		'inner': '.memberInner__5d473',
 		'layout': '.layout__91a9d',
 		'avatar': '.avatar__91a9d',
 		'content': '.content__91a9d',
@@ -392,6 +430,8 @@ $classmap: (
 			'scroller': '.scroller_c1e9c4',
 			'group': '[role="group"]',
 			'separator': '.separator_c1e9c4',
+			'popover': '.popover_f84418',
+			'activePosts': '.popout__76f04',
 			'quickReactions': (
 				'container': '.wrapper_f563df',
 				'button': '.button_f563df',
@@ -402,6 +442,9 @@ $classmap: (
 				'arrow': '.arrow_d64d50',
 				'focused': '.focused_c1e9c4',
 				'hideInteraction': '.hideInteraction_c1e9c4'
+			),
+			'stream': (
+				'body': '.body__6da2d'
 			)
 		),
 		'user': (
@@ -413,11 +456,47 @@ $classmap: (
 			'badges': '.profileBadges_f89da9',
 			'nameTag': '.nameTag__05e81',
 			'discrim': '.discrimBase_c9ccf6',
-			'nickName': 'nickname_c9ccf6'
+			'nickName': '.nickname_c9ccf6',
+			'status': '.outer_ab8609, .inner_ab8609',
+			'popover': '.popover_c97e55'
 		),
 		'currentUser': (
 			'wrapper': '.accountProfilePopoutWrapper__37e49'
 		),
+		'emoji': (
+			'searchBar': '.searchBar_c0e32c',
+			'wrapper': '.contentWrapper__08434',
+			'picker': '.emojiPicker_c0e32c',
+			'header1': '.header_c0e32c',
+			'header2': '.header_c656ac',
+			'listRow': '.emojiListRow_fc7141',
+			'scrollerBase': '.categoryList_c0e32c .scrollerBase_d125d2',
+			'categoryList': '.categoryList_c0e32c',
+			'nitroDivider': '.nitroTopDividerContainer_b3fb5f',
+			'nitroBackground': '.categorySectionNitroLocked_c656ac',
+			'shortcut': '.unicodeShortcut_b9ee0c',
+			'footer': '.inspector_c0e32c',
+			'category': '.categoryItemDefaultCategory_b9ee0c',
+			'categorySelected': '.categoryItemDefaultCategorySelected_b9ee0c',
+			'emoji': '.emojiItem_fc7141',
+			'emojiSelected': '.emojiItemSelected_fc7141'
+		),
+		'sticker': (
+			'searchBar': '.searchBar_fed6d3',
+			'header1': '.header__8ef02',
+			'header2': '.packHeader_e94b8c',
+			'shortcut': '.standardStickerShortcut__3ad28',
+			'footer': '.inspector_aeaaeb',
+			'category': '.stickerCategoryGeneric__3ad28',
+			'categorySelected': '.stickerCategoryGenericSelected__3ad28',
+			'sticker': '.sticker_c6367b',
+			'stickerSelected': '.stickerInspected_c6367b',
+			'stickerCreate': '.createSticker_c6367b'
+		),
+		'gif': (
+			'searchBar': '.inner_a45028',
+			'header': '.header_fed6d3'
+		)
 	),
 	'profile': (
 		'banner': '.banner__68edb',
@@ -427,13 +506,18 @@ $classmap: (
 		'inner': '.userProfileInner_c69a7b',
 		'innerNonPremium': '.userProfileInnerThemedNonPremium_c69a7b',
 		'innerWithBanner': '.userProfileInnerThemedWithBanner_c69a7b',
-		'innerWithoutBanner': '.userProfileInnerThemedPremiumWithoutBanner_c69a7b'
+		'innerWithoutBanner': '.userProfileInnerThemedPremiumWithoutBanner_c69a7b',
+		'messageBarBackground': '.inner_c0bea0'
 	),
 	'modal': (
 		'backdrop': '.backdrop__1a911',
 		'withLayer': '.withLayer__29ace',
 		'focusLock': '.focusLock__49fc1',
 		'root': '.root__49fc1',
+		'header': '.header__49fc1',
+		'modalContent': '.modalContent__70657',
+		'content': '.content__49fc1',
+		'footer': '.footer__49fc1',
 		'user': (
 			'username': '.username__05e81',
 			'list': (
@@ -458,7 +542,6 @@ $classmap: (
 		'layer': '.layer__960e4 :not(.baseLayer__960e4)',
 		'auto': '.auto_d125d2',
 		'scroller': '.contentRegionScroller__23e6b',
-		'scrollerBase': '.scrollerBase_d125d2',
 		'sidebar': (
 			'container': '.sidebar__23e6b',
 			'region': '.sidebarRegion__23e6b',
@@ -473,8 +556,59 @@ $classmap: (
 			'socials': '.socialLinks__7df54',
 			'info': '.info__2debe',
 			'infoLine': '.line__2debe',
-			'badge': '.textBadge_f05120'
+			'badge': '.textBadge_f05120',
+			'searchBar': '.searchBar_c7e907 .inner_fea832'
+		),
+		'server': (
+			'folderHeader': '.folderHeader__1a4ef',
+			'permissionsContainer': '.container_d8f25b',
+			'nitroReward': '.tierBody_f15dca',
+			'descriptionBox': '.descriptionBox__981f7',
+			'banListScroller': '.scrollerContainer_cdb2b0',
+			'communityOverview': '.upsellContainer__4cfe2',
+			'communityOverviewFooter': '.upsellFooter__4cfe2',
+			'onboardingPreview': '.upsellPreview_d9161f',
+			'onboardingPreviewButtons': '.previewListItem_d9161f',
+			'monetizationContainer': '.ctaContent_d6d601',
+			'monetizationTutorial': '.howItWorksContainer_dd30dc',
+			'monetizationTutorialCard': '.howItWorksCard_dd30dc',
+			'monetizationBenefitsCard': '.creatorBenefitCard__02e4c',
+			'monetizationServersCard': '.guildCard__2485e',
+			'invitesScrollerBase': '.customScroller__23e6b.scrollerBase__99f8c'
+		),
+		'connections': (
+			'header': '.connectionHeader_c7f964',
+			'wrapper': '.connectionOptionsWrapper_c7f964',
+			'base': '.connection_c7f964'
+		),
+		'misc': (
+			'accountProfileCard': '.accountProfileCard__1fed1',
+			'blockedHeader': '.header__5cea9',
+			'blockedUser': '.usersList__5cea9',
+			'recommendedServerCard': '.recommendedServerCard__51537',
+			'rewardCard': '.card__4d7bb',
+			'faq': '.faq__744ff',
+			'activeGame': '.activeGame_cc46f0'
 		)
+	),
+	'discovery': (
+		'appCard': '.card__84e3e',
+		'nav': '.nav__551b0',
+		'navItem': '.navItem__551b0',
+		'selected': '.selected__551b0',
+		'navHeader': '.header__551b0',
+		'headerBar': '.backdrop__8a7fc',
+		'searchBar': '.searchBar__1ac1c',
+		'tab': '.tab__65d41',
+		'questsTab': '.tabItem_c9a59b',
+		'contentContainer': '.contentContainer__8f46b',
+		'commandContainer': '.contentContainer_c6b177',
+		'appContainer': '.appContainer__5a4b6',
+		'code': '.code_cf4812',
+		'benefits': '.benefits__62119',
+		'benefitsCard': '.card__62119',
+		'hoverCard': '.hoverCard__26e8b',
+		'serverCard': '.card_c59071'
 	),
 	'tooltip': (
 		'bottom': '.tooltipBottom__382e7',
@@ -498,6 +632,7 @@ $classmap: (
 	'buttons': (
 		'button': '.button__201d5',
 		'content': '.contents__201d5',
+		'watch': '.watchButton__6da2d',
 		'colour': (
 			'brand': '.colorBrand__201d5',
 			'brandNew': '.colorBrandNew__8872c',
