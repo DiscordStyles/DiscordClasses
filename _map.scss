@@ -115,7 +115,6 @@ $classmap: (
 			'selected': '.modeSelected__2ea32',
 			'unread': '.modeUnreadImportant__2ea32',
 			'muted': '.modeMuted__2ea32',
-			'content': '.wrapper__2ea32',
 			'iconContainer': '.iconContainer__2ea32',
 			'icon': '.icon__2ea32',
 			'iconItem': '.iconItem_c69b6d',
@@ -217,6 +216,7 @@ $classmap: (
 				'item': '.upload_aa605f',
 				'itemContainer': '.uploadContainer_aa605f',
 				'icon': '.icon__41ea0',
+				'actionBar': '.actionBar_aa605f.wrapper_f7ecac',
 				'name': (
 					'container': '.filenameContainer__41ea0',
 					'text': '.filename__41ea0'
@@ -236,7 +236,8 @@ $classmap: (
 			'threads': (
 				'header': '.header_d9c882',
 				'searchBar': '.searchBox_d9c882',
-				'container': '.list_c441f0'
+				'wrapper': '.list_c441f0',
+				'container': '.container__6764b'
 			)
 		),
 		'reply': (
