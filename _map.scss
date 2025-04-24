@@ -451,20 +451,16 @@ $classmap: (
 			)
 		),
 		'user': (
-			'outer': '.userPopoutOuter_c69a7b',
-			'inner': '.userPopoutInner_c69a7b',
-			'avatarWrapper': '.avatarWrapper_f89da9',
-			'avatarNormal': '.avatarWrapperNormal_f89da9',
-			'divider': '.divider_e6f9ab',
-			'badges': '.profileBadges_f89da9',
-			'nameTag': '.nameTag__05e81',
-			'discrim': '.discrimBase_c9ccf6',
-			'nickName': '.nickname_c9ccf6',
+			'outer': '.outer_c0bea0 ',
+			'inner': '.inner_c0bea0',
+			'badges': '.container__8061a',
+			'nameTag': '.nameTag__37e49',
+			'nickName': '.nickname__63ed3',
 			'status': '.outer_ab8609, .inner_ab8609',
-			'popover': '.popover_c97e55'
+			'popover': '.statusPopover__2d0ab'
 		),
 		'currentUser': (
-			'wrapper': '.accountProfilePopoutWrapper__37e49'
+			'wrapper': '.outer_c0bea0:has(.menus_ce8328)'
 		),
 		'emoji': (
 			'searchBar': '.searchBar_c0e32c',
