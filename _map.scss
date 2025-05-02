@@ -95,6 +95,7 @@ $classmap: (
 			'searchBar': '.searchBar__5ec2f .inner_a45028',
 			'popover': '.popover__2d0ab'
 		),
+		//The list of channels in a guild
 		'channels': (
 			'scroller': '.scroller__629e4',
 			'content': '.content__99f8c',
@@ -107,6 +108,7 @@ $classmap: (
 				'children': '.children__29444'
 			)
 		),
+		//Individual channel in the left hand channel list of a guild
 		'channel': (
 			'container': '.containerDefault_c69b6d',
 			'containerSelected': '.selected_c69b6d',
@@ -121,7 +123,11 @@ $classmap: (
 			'iconItem': '.iconItem_c69b6d',
 			'name': '.name__2ea32',
 			'unreadPill': '.unread__2ea32',
-			'connected': '.modeConnected__2ea32'
+			'connected': '.modeConnected__2ea32',
+			//#region VC specific classes
+			'users': '.users__260e1',
+			'total': '.total__260e1'
+			//#endregion VC specific classes
 		),
 		'threads': (
 			'container': '.container__5b40b',
