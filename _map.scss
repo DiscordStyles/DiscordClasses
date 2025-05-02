@@ -28,6 +28,7 @@ $classmap: (
 		'container': '.guilds_c48ade',
 		'tree': '.tree_ef3116',
 		'wrapper': '.wrapper_ef3116',
+		'stack': '.stack_dbd263',
 		'unread': (
 			'top': '.unreadMentionsIndicatorTop_ef3116',
 			'bottom': '.unreadMentionsIndicatorBottom_ef3116',
@@ -35,7 +36,6 @@ $classmap: (
 		),
 		'list': (
 			'item': '.listItem__650eb',
-			'itemWrapper': '.listItemWrapper_dfb2f8',
 			'blob': '.blobContainer_e5445c',
 			'bloblSelected': '.selected_e5445c',
 			'server': '.wrapper_cc5dd2',
@@ -43,22 +43,27 @@ $classmap: (
 			'innerSelected': '.selected_ae80f7',
 			'icon': '.icon__11cf1',
 			'svg': '.svg_cc5dd2',
-			'pill': '.pill__1f388',
+			'homePill': '.pill__1f388',
+			'pill': '.pill_e5445c',
 			'pillItem': '.item__58105',
 			'addJoin': '.tutorialContainer__650eb',
 			'circleButton': '.circleIconButton__5bc7e',
 			'circleIcon': '.circleIcon__5bc7e',
-			'childWrapper': '.childWrapper_a6ce15'
+			'childWrapper': '.childWrapper_a6ce15',
+			'svgWrapper': '.wrapper_cc5dd2',
+			'pingBadge': '.lowerBadge_cc5dd2'
 		),
 		'folder': (
-			'container': '.folder__48112',
-			'wrapper': '.wrapper__48112',
+			'container': '.hiddenVisually__27f77',
+			'wrapper': '.folderGroup__48112',
 			'folderHover': '.hover__48112',
-			'iconWrapper': '.folderIconWrapper__48112',
-			'closedWrapper': '.closedFolderIconWrapper__48112',
-			'openedBackground': '.expandedFolderBackground__48112',
-			'collapsed': '.collapsed__48112',
-			'icon': '.guildIcon__48112'
+			'iconWrapper': '.folderPreviewWrapper__48112',
+			'closedWrapper': '.folderPreview__48112',
+			'openedBackground': '.folderGroupBackground__48112',
+			'expanded': '.isExpanded__48112',
+			'icon': '.folderPreviewGuildIcon__48112',
+			'button': '.folderButton__48112',
+			'header': '.folderHeader__48112'
 		),
 		'servers': '.scroller_ef3116 > div[aria-label]',
 		'separator': '.guildSeparator__252b6',
