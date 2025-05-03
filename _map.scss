@@ -104,6 +104,8 @@ $classmap: (
 		'channels': (
 			'scroller': '.scroller__629e4',
 			'content': '.content__99f8c',
+			'unreadBar': '.bar__7aaec',
+			'unreadMentionsBar': '.mentionsBar__7aaec',
 			'category': (
 				'container': '.containerDefault__29444',
 				'wrapper': '.wrapper__29444',
@@ -551,8 +553,19 @@ $classmap: (
 	'settings': (
 		'layer': '.layer__960e4 :not(.baseLayer__960e4)',
 		'auto': '.auto_d125d2',
+		'content': '.contentRegion__23e6b',
 		'scroller': '.contentRegionScroller__23e6b',
+		'header': (
+			'h5': '.h5_b717a1',
+			'title': '.title__0d850'
+		),
+		'description': (
+			'normal': '.description_ddd181',
+			'label': '.labelDescriptor_ddd181',
+			'keybind': '.defaultKeybindGroupDescription__740f2'
+		),
 		'sidebar': (
+			'wrapper': '.standardSidebarView__23e6b',
 			'container': '.sidebar__23e6b',
 			'region': '.sidebarRegion__23e6b',
 			'scroller': '.sidebarRegionScroller__23e6b',
@@ -584,7 +597,15 @@ $classmap: (
 			'monetizationTutorialCard': '.howItWorksCard_dd30dc',
 			'monetizationBenefitsCard': '.creatorBenefitCard__02e4c',
 			'monetizationServersCard': '.guildCard__2485e',
-			'invitesScrollerBase': '.customScroller__23e6b.scrollerBase__99f8c'
+			'invitesScrollerBase': '.customScroller__23e6b.scrollerBase__99f8c',
+			'auditLog': '.auditLog__43dab',
+			'auditLogTimestamp': '.timestamp__43dab',
+			'auditLogChangeDetails': '.changeDetails__43dab',
+			'auditLogHeader': '.header__43dab',
+			'auditLogHeaderExpanded': '.headerExpanded__43dab',
+			'roleEditPermissionsHeader': '.header_c6bf1b',
+			'roleEditPermissionsTitleContainer': '.titleContainer__81b3e',
+			'roleEditPermissionsSearchBarContainer': '.searchContainer__16663'
 		),
 		'connections': (
 			'header': '.connectionHeader_c7f964',
