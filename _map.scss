@@ -214,6 +214,7 @@ $classmap: (
 	'chat': (
 		'container': '.chat_f75fb0',
 		'content': '.content_f75fb0',
+		'skeleton': '.wrapper_d852db, .wrapper_fc8177',
 		'bars': (
 			'button': '.barButtonMain__0f481',
 			'buttonIcon': '.barButtonIcon__0f481',
@@ -610,16 +611,21 @@ $classmap: (
 		'connections': (
 			'header': '.connectionHeader_c7f964',
 			'wrapper': '.connectionOptionsWrapper_c7f964',
-			'base': '.connection_c7f964'
+			'base': '.connection_c7f964',
+			'delete': '.connectionDelete_c7f964'
 		),
 		'misc': (
 			'accountProfileCard': '.accountProfileCard__1fed1',
+			'primaryCard': '.cardPrimary__73069',
+			'fieldList': '.fieldList__1fed1',
 			'blockedHeader': '.header__5cea9',
 			'blockedUser': '.usersList__5cea9',
 			'recommendedServerCard': '.recommendedServerCard__51537',
 			'rewardCard': '.card__4d7bb',
 			'faq': '.faq__744ff',
-			'activeGame': '.activeGame_cc46f0'
+			'activeGame': '.activeGame_cc46f0',
+			'authedApp': '.authedAppV2__50a54',
+			'language': '.item__001a7'
 		)
 	),
 	'discovery': (
