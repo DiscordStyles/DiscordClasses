@@ -37,11 +37,11 @@ $classmap: (
 		'list': (
 			'item': '.listItem__650eb',
 			'blob': '.blobContainer_e5445c',
-			'bloblSelected': '.selected_e5445c',
+			'blobSelected': '.selected_e5445c',
 			'server': '.wrapper_cc5dd2',
-			'inner': '.wrapper__8436d',
-			'innerSelected': '.selected_ae80f7',
-			'icon': '.icon__11cf1',
+			'inner': '.wrapper__6e9f8',
+			'innerSelected': '.selected__6e9f8',
+			'icon': '.icon__6e9f8',
 			'svg': '.svg_cc5dd2',
 			'homePill': '.pill__1f388',
 			'pill': '.pill_e5445c',
@@ -49,7 +49,7 @@ $classmap: (
 			'addJoin': '.tutorialContainer__650eb',
 			'circleButton': '.circleIconButton__5bc7e',
 			'circleIcon': '.circleIcon__5bc7e',
-			'childWrapper': '.childWrapper_a6ce15',
+			'childWrapper': '.childWrapper__6e9f8',
 			'svgWrapper': '.wrapper_cc5dd2',
 			'lowerBadge': '.lowerBadge_cc5dd2',
 			'upperBadge': '.upperBadge_cc5dd2'
@@ -62,6 +62,7 @@ $classmap: (
 			'closedWrapper': '.folderPreview__48112',
 			'openedBackground': '.folderGroupBackground__48112',
 			'expanded': '.isExpanded__48112',
+			'expandedFolderIcon': '.isExpanded__48112 .folderIcon__48112',
 			'icon': '.folderPreviewGuildIcon__48112',
 			'button': '.folderButton__48112',
 			'header': '.folderHeader__48112'
@@ -70,7 +71,8 @@ $classmap: (
 		'separator': '.guildSeparator__252b6',
 		'scroller': '.scroller_ef3116',
 		'home': '.tutorialContainer__1f388',
-		'homePill': '.pill__1f388'
+		'homePill': '.pill__1f388',
+		'addServer': '.tutorialContainer__650eb'
 	),
 	'sidebar': (
 		'sidebar': '.sidebar_c48ade',
