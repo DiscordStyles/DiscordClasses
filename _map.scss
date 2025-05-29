@@ -397,6 +397,7 @@ $classmap: (
 			'chat': '.chat_a44415',
 			'chatContent': '.chatContent_f75fb0',
 			'divider': '.divider_ee23ac',
+			'threadAdded': '.container__9271d',
 			'followBar': (
 				'container': '.container__34c2c',
 				'buttons': '.buttons__34c2c',
@@ -421,7 +422,9 @@ $classmap: (
 			),
 			'emoji': '.emoji__1c948',
 			'selected': '.selected_a2c9e8'
-		)
+		),
+		'uploadInput': '.uploadInput__94439',
+		'postGuidelines': '.container_ca49a1'
 	),
 	'members': (
 		'container': '.container_c8ffbb',
