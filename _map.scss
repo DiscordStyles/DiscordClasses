@@ -152,7 +152,7 @@ $classmap: (
 				'name': '.nameTag__37e49',
 				'username': '.usernameContainer__22048',
 				'title': '.title_d1da5f',
-				'tag': '.subtext_beaa93'
+				'tag': '.subtext__339d0'
 			)
 		),
 		'connected': (
@@ -217,7 +217,7 @@ $classmap: (
 	'chat': (
 		'container': '.chat_f75fb0',
 		'content': '.content_f75fb0',
-		'skeleton': '.wrapper__71152, .wrapper_fc8177',
+		'skeleton': '.wrapper_da5890, .wrapper_fc8177',
 		'eventCard': '.card__88264',
 		'bars': (
 			'button': '.barButtonMain__0f481',
@@ -396,7 +396,7 @@ $classmap: (
 		),
 		'thread': (
 			'container': '.container__01ae2',
-			'chat': '.chat_ee72fa',
+			'chat': '.chat_a44415',
 			'chatContent': '.chatContent_f75fb0',
 			'divider': '.divider_ee23ac',
 			'threadAdded': '.container__9271d',
@@ -589,16 +589,17 @@ $classmap: (
 			'info': '.info__2debe',
 			'infoLine': '.line__2debe',
 			'badge': '.textBadge_f05120',
-			'searchBar': '.searchBar_c7e907 .inner_fea832'
+			'searchBar': '.searchBar_c7e907',
+			'searchBarInner': '.searchBar_c7e907 .inner_fea832'
 		),
 		'server': (
 			'folderHeader': '.folderHeader__1a4ef',
 			'permissionsContainer': '.container_d8f25b',
 			'nitroReward': '.tierBody_a36dee',
 			'descriptionBox': '.descriptionBox__981f7',
-			'banListScroller': '.scrollerContainer_cdb2b0',
-			'communityOverview': '.upsellContainer__4cfe2',
-			'communityOverviewFooter': '.upsellFooter__4cfe2',
+			'banListScroller': '.scrollerContainer__4b8d8',
+			'communityOverview': '.upsellContainer__73000',
+			'communityOverviewFooter': '.upsellFooter__73000',
 			'onboardingPreview': '.upsellPreview_d9161f',
 			'onboardingPreviewButtons': '.previewListItem_d9161f',
 			'monetizationContainer': '.ctaContent_d6d601',
@@ -621,9 +622,9 @@ $classmap: (
 			'autoModInnerContainer': '.contentExpandContainer_a25a68',
 			'autoModInnerCollapseable': '.contentExpandContainer_a25a68 .collapseable__217b7',
 			'autoModTag': '.actionContainer_bc4513',
-			'autoModFilter': '.backgroundModifierContainer__6cd3a',
-			'autoModFilterContainer': '.container__6cd3a',
-			'autoModFilterDisabled': '.container__6cd3a>.clickableContainer__6cd3a.disabled__6cd3a'
+			'autoModFilter': '.backgroundModifierContainer_d96a9c',
+			'autoModFilterContainer': '.container_d96a9c',
+			'autoModFilterDisabled': '.container_d96a9c>.clickableContainer_d96a9c.disabled_d96a9c'
 		),
 		'connections': (
 			'header': '.connectionHeader_c7f964',
@@ -642,7 +643,7 @@ $classmap: (
 			'faq': '.faq__744ff',
 			'activeGame': '.activeGame_cc46f0',
 			'authedApp': '.authedAppV2__50a54',
-			'language': '.item__001a7'
+			'language': '.item__1bda4'
 		)
 	),
 	'discovery': (
