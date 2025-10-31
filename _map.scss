@@ -2,7 +2,7 @@ $classmap: (
 	'mount': '#app-mount',
 	'titleBar': '.bar_c38106',
 	'common': (
-		'overflow': '.overflow__82b15',
+		'overflow': '.overflow_b0dfc2',
 		'clickable': '.clickable_c19a55',
 		'scrollerBase': '.scrollerBase_d125d2',
 		'flex': '.flex__7c0ba',
@@ -21,11 +21,11 @@ $classmap: (
 		'layers': '.layers__960e4',
 		'layer': '.layer__960e4',
 		'baseLayer': '.baseLayer__960e4',
-		'base': '.base_c48ade',
-		'content': '.content_c48ade'
+		'base': '.base__5e434',
+		'content': '.content__5e434'
 	),
 	'guilds': (
-		'container': '.guilds_c48ade',
+		'container': '.guilds__5e434',
 		'tree': '.tree_ef3116',
 		'wrapper': '.wrapper_ef3116',
 		'stack': '.stack_dbd263',
@@ -75,8 +75,8 @@ $classmap: (
 		'addServer': '.tutorialContainer__650eb'
 	),
 	'sidebar': (
-		'sidebar': '.sidebar_c48ade',
-		'sidebarList': '.sidebarList_c48ade',
+		'sidebar': '.sidebar__5e434',
+		'sidebarList': '.sidebarList__5e434',
 		'container': '.container__2637a',
 		'head': (
 			'container': '.container_f37cb1',
@@ -90,10 +90,10 @@ $classmap: (
 			'selected': '.selected_f37cb1',
 			'bannerImg': '.bannerImg_f37cb1',
 			'animatedContainer': '.animatedContainer_f37cb1',
-			'search': '.searchBar__35e86'
+			'search': '.searchBar_e6b769'
 		),
 		'dms': (
-			'container': '.privateChannels__35e86',
+			'container': '.privateChannels_e6b769',
 			'scroller': '.scroller__99e7c',
 			'user': '.channel__972a0',
 			'interactive': '.interactive_bf202d',
@@ -145,7 +145,7 @@ $classmap: (
 			'spineBorder': '.spineBorder__5b40b'
 		),
 		'panels': (
-			'container': '.panels_c48ade',
+			'container': '.panels__5e434',
 			'user': (
 				'container': '.container__37e49',
 				'avatarWrapper': '.avatarWrapper__37e49',
@@ -217,7 +217,7 @@ $classmap: (
 	'chat': (
 		'container': '.chat_f75fb0',
 		'content': '.content_f75fb0',
-		'skeleton': '.wrapper_d852db, .wrapper_fc8177',
+		'skeleton': '.wrapper_cdf8a9, .wrapper_fc8177',
 		'eventCard': '.card__88264',
 		'bars': (
 			'button': '.barButtonMain__0f481',
@@ -248,9 +248,9 @@ $classmap: (
 				'label': '.replyLabel__841c8'
 			),
 			'pins': (
-				'header': '.header__45690',
-				'footer': '.footer__45690',
-				'message': '.messageGroupCozy__45690'
+				'header': '.header_e8b59c',
+				'footer': '.footer_e8b59c',
+				'message': '.messageGroupCozy_e8b59c'
 			),
 			'threads': (
 				'header': '.header_d9c882',
@@ -643,7 +643,7 @@ $classmap: (
 			'faq': '.faq__744ff',
 			'activeGame': '.activeGame_cc46f0',
 			'authedApp': '.authedAppV2__50a54',
-			'language': '.item__1bda4'
+			'language': '.item__88a69'
 		)
 	),
 	'discovery': (
