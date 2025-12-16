@@ -1,12 +1,12 @@
 $classmap: (
 	'mount': '#app-mount',
-	'titleBar': '.bar_c38106',
+	'titleBar': '.c38106a3f0c3ca76-bar',
 	'common': (
-		'overflow': '.overflow_b0dfc2',
-		'clickable': '.clickable_c19a55',
-		'scrollerBase': '.scrollerBase_d125d2',
-		'flex': '.flex__7c0ba',
-		'resizeHandle': '.resizeHandle__01ae2',
+		'overflow': '.b0dfc2ed9c57037d-overflow',
+		'clickable': '.c19a557985eb7793-clickable',
+		'scrollerBase': '.d125d22cdfd32cfe-scrollerBase',
+		'flex': '._7c0bae9243151ddd-flex',
+		'resizeHandle': '._01ae244280823725-resizeHandle',
 		'mode': (
 			'mouse': '.mouse-mode'
 		),
@@ -15,688 +15,647 @@ $classmap: (
 		)
 	),
 	'app': (
-		'outer': '.app_a3002d',
-		'inner': '.app__160d8',
-		'bg': '.bg__960e4',
-		'layers': '.layers__960e4',
-		'layer': '.layer__960e4',
-		'baseLayer': '.baseLayer__960e4',
-		'base': '.base__5e434',
-		'content': '.content__5e434'
+		'outer': '.a3002d7de5be5280-app',
+		'inner': '._160d8e55254637e5-app',
+		'bg': '._960e4207cea8323e-bg',
+		'layers': '._960e4207cea8323e-layers',
+		'layer': '._960e4207cea8323e-layer',
+		'baseLayer': '._960e4207cea8323e-baseLayer',
+		'base': '._5e434347c823b592-base',
+		'content': '._5e434347c823b592-content'
 	),
 	'guilds': (
-		'container': '.guilds__5e434',
-		'tree': '.tree_ef3116',
-		'wrapper': '.wrapper_ef3116',
-		'stack': '.stack_dbd263',
+		'container': '._5e434347c823b592-guilds',
+		'tree': '.ef3116c2da186559-tree',
+		'wrapper': '.ef3116c2da186559-wrapper',
+		'stack': '.dbd2630aec71879b-stack',
 		'unread': (
-			'top': '.unreadMentionsIndicatorTop_ef3116',
-			'bottom': '.unreadMentionsIndicatorBottom_ef3116',
-			'bar': '.unreadMentionsBar_ef3116'
+			'top': '.ef3116c2da186559-unreadMentionsIndicatorTop',
+			'bottom': '.ef3116c2da186559-unreadMentionsIndicatorBottom',
+			'bar': '.ef3116c2da186559-unreadMentionsBar'
 		),
 		'list': (
-			'item': '.listItem__650eb',
-			'blob': '.blobContainer_e5445c',
-			'blobSelected': '.selected_e5445c',
-			'server': '.wrapper_cc5dd2',
-			'inner': '.wrapper__6e9f8',
-			'innerSelected': '.selected__6e9f8',
-			'icon': '.icon__6e9f8',
-			'svg': '.svg_cc5dd2',
-			'homePill': '.pill__1f388',
-			'pill': '.pill_e5445c',
-			'pillItem': '.item__58105',
-			'addJoin': '.tutorialContainer__650eb',
-			'circleButton': '.circleIconButton__5bc7e',
-			'circleIcon': '.circleIcon__5bc7e',
-			'childWrapper': '.childWrapper__6e9f8',
-			'svgWrapper': '.wrapper_cc5dd2',
-			'lowerBadge': '.lowerBadge_cc5dd2',
-			'upperBadge': '.upperBadge_cc5dd2'
+			'item': '._650eb104245d257b-listItem',
+			'blob': '.e5445cbd3ad226f2-blobContainer',
+			'blobSelected': '.e5445cbd3ad226f2-selected',
+			'server': '.cc5dd25190031396-wrapper',
+			'inner': '._6e9f8dce4cc18de3-wrapper',
+			'innerSelected': '._6e9f8dce4cc18de3-selected',
+			'icon': '._6e9f8dce4cc18de3-icon',
+			'svg': '.cc5dd25190031396-svg',
+			'homePill': '._1f388bcaa446c0c8-pill',
+			'pill': '.e5445cbd3ad226f2-pill',
+			'pillItem': '._581051df43c5ebb6-item',
+			'addJoin': '._650eb104245d257b-tutorialContainer',
+			'circleButton': '._5bc7ed9d4097f6b5-circleIconButton',
+			'circleIcon': '._5bc7ed9d4097f6b5-circleIcon',
+			'childWrapper': '._6e9f8dce4cc18de3-childWrapper',
+			'svgWrapper': '.cc5dd25190031396-wrapper',
+			'lowerBadge': '.cc5dd25190031396-lowerBadge',
+			'upperBadge': '.cc5dd25190031396-upperBadge'
 		),
 		'folder': (
-			'container': '.hiddenVisually_b18fe2',
-			'wrapper': '.folderGroup__48112',
-			'folderHover': '.hover__48112',
-			'iconWrapper': '.folderPreviewWrapper__48112',
-			'closedWrapper': '.folderPreview__48112',
-			'openedBackground': '.folderGroupBackground__48112',
-			'expanded': '.isExpanded__48112',
-			'expandedFolderIcon': '.isExpanded__48112 .folderHeader__48112',
-			'icon': '.folderIcon__48112',
-			'previewIcon': '.folderPreviewGuildIcon__48112',
-			'button': '.folderButton__48112',
-			'header': '.folderHeader__48112'
+			'container': '.b18fe29d6fe8dd82-hiddenVisually',
+			'wrapper': '._48112cbe77dc5022-folderGroup',
+			'iconWrapper': '._48112cbe77dc5022-folderPreviewWrapper',
+			'closedWrapper': '._48112cbe77dc5022-folderPreview',
+			'openedBackground': '._48112cbe77dc5022-folderGroupBackground',
+			'expanded': '._48112cbe77dc5022-isExpanded',
+			'expandedFolderIcon': '._48112cbe77dc5022-isExpanded ._48112cbe77dc5022-folderHeader',
+			'icon': '._48112cbe77dc5022-folderHeader',
+			'previewIcon': '._48112cbe77dc5022-folderPreviewGuildIcon',
+			'button': '._48112cbe77dc5022-folderButton',
+			'header': '._48112cbe77dc5022-folderHeader'
 		),
-		'servers': '.scroller_ef3116 > div[aria-label]',
-		'separator': '.guildSeparator__252b6',
-		'scroller': '.scroller_ef3116',
-		'home': '.tutorialContainer__1f388',
-		'homePill': '.pill__1f388',
-		'addServer': '.tutorialContainer__650eb'
+		'servers': '.ef3116c2da186559-scroller > div[aria-label]',
+		'separator': '._252b6afd49fda06f-guildSeparator',
+		'scroller': '.ef3116c2da186559-scroller',
+		'home': '._1f388bcaa446c0c8-tutorialContainer',
+		'homePill': '._1f388bcaa446c0c8-pill',
+		'addServer': '._650eb104245d257b-tutorialContainer'
 	),
 	'sidebar': (
-		'sidebar': '.sidebar__5e434',
-		'sidebarList': '.sidebarList__5e434',
-		'container': '.container__2637a',
+		'sidebar': '._5e434347c823b592-sidebar',
+		'sidebarList': '._5e434347c823b592-sidebarList',
+		'container': '._2637a2609f343032-container',
 		'head': (
-			'container': '.container_f37cb1',
-			'header': '.header_f37cb1',
-			'content': '.headerContent_f37cb1',
-			'guildIcon': '.guildIconContainer__85d16',
-			'name': '.name_f37cb1',
-			'button': '.headerButton_f37cb1',
-			'children': '.headerChildren_f37cb1',
-			'icon': '.button__353c4',
-			'selected': '.selected_f37cb1',
-			'bannerImg': '.bannerImg_f37cb1',
-			'animatedContainer': '.animatedContainer_f37cb1',
-			'search': '.searchBar_e6b769'
+			'container': '.f37cb1984c371ee5-container',
+			'header': '.f37cb1984c371ee5-header',
+			'content': '.f37cb1984c371ee5-headerContent',
+			'guildIcon': '._85d1663d6a9fc7f6-guildIconContainer',
+			'name': '.f37cb1984c371ee5-name',
+			'children': '.f37cb1984c371ee5-headerChildren',
+			'bannerImg': '.f37cb1984c371ee5-bannerImg',
+			'animatedContainer': '.f37cb1984c371ee5-animatedContainer',
+			'search': '.e6b7699ce8339e1c-searchBar'
 		),
 		'dms': (
-			'container': '.privateChannels_e6b769',
-			'scroller': '.scroller__99e7c',
-			'user': '.channel__972a0',
-			'interactive': '.interactive_bf202d',
-			'interactiveSelected': '.interactiveSelected__972a0',
-			'layout': '.layout__20a53',
-			'selected': '.selected_bf202d',
-			'searchBar': '.searchBar__5ec2f .inner_a45028',
-			'popover': '.popover__2d0ab'
+			'container': '.e6b7699ce8339e1c-privateChannels',
+			'scroller': '._99e7cad8d4c55236-scroller',
+			'user': '._972a0d22c8afa7f0-channel',
+			'interactive': '.bf202d63ad53e289-interactive',
+			'interactiveSelected': '._972a0d22c8afa7f0-interactiveSelected',
+			'layout': '._20a53846fe2e8513-layout',
+			'selected': '.bf202d63ad53e289-selected',
+			'searchBar': '._5ec2fb8b5de26b21-searchBar',
+			'popover': '._2d0abf0638bcaa3f-popover'
 		),
 		//The list of channels in a guild
 		'channels': (
-			'scroller': '.scroller__629e4',
-			'content': '.content__99f8c',
-			'unreadBar': '.bar__7aaec',
-			'unreadMentionsBar': '.mentionsBar__7aaec',
+			'scroller': '._629e4c86564a4ee7-scroller',
+			'content': '._99f8cc7ad4790ce9-content',
+			'unreadBar': '._7aaec78b97ff00f7-bar',
+			'unreadMentionsBar': '._7aaec78b97ff00f7-mentionsBar',
 			'category': (
-				'container': '.containerDefault__29444',
-				'wrapper': '.wrapper__29444',
-				'content': '.mainContent__29444',
-				'arrow': '.arrow_d64d50',
-				'name': '.name__29444',
-				'children': '.children__29444'
+				'container': '._29444ba32c7fbeab-containerDefault',
+				'wrapper': '._29444ba32c7fbeab-wrapper',
+				'content': '._29444ba32c7fbeab-mainContent',
+				'name': '._29444ba32c7fbeab-name',
+				'children': '._29444ba32c7fbeab-children'
 			)
 		),
 		//Individual channel in the left hand channel list of a guild
 		'channel': (
-			'container': '.containerDefault_c69b6d',
-			'containerSelected': '.selected_c69b6d',
-			'channelSelected': '.selectedChannel_c69b6d',
-			'wrapper': '.wrapper__2ea32',
-			'link': '.link__2ea32',
-			'selected': '.modeSelected__2ea32',
-			'unread': '.modeUnreadImportant__2ea32',
-			'muted': '.modeMuted__2ea32',
-			'iconContainer': '.iconContainer__2ea32',
-			'icon': '.icon__2ea32',
-			'iconItem': '.iconItem_c69b6d',
-			'name': '.name__2ea32',
-			'unreadPill': '.unread__2ea32',
-			'connected': '.modeConnected__2ea32',
+			'container': '.c69b6db0641110f6-containerDefault',
+			'containerSelected': '.c69b6db0641110f6-selected',
+			'channelSelected': '.c69b6db0641110f6-selectedChannel',
+			'wrapper': '._2ea32c412048f708-wrapper',
+			'link': '._2ea32c412048f708-link',
+			'selected': '._2ea32c412048f708-modeSelected',
+			'unread': '._2ea32c412048f708-modeUnreadImportant',
+			'muted': '._2ea32c412048f708-modeMuted',
+			'iconContainer': '._2ea32c412048f708-iconContainer',
+			'icon': '._2ea32c412048f708-icon',
+			'iconItem': '.c69b6db0641110f6-iconItem',
+			'name': '._2ea32c412048f708-name',
+			'unreadPill': '._2ea32c412048f708-unread',
+			'connected': '._2ea32c412048f708-modeConnected',
 			//#region VC specific classes
-			'users': '.users__260e1',
-			'total': '.total__260e1'
+			'users': '._260e1982cd52c5c3-users',
+			'total': '._260e1982cd52c5c3-total'
 			//#endregion VC specific classes
 		),
 		'threads': (
-			'container': '.container__5b40b',
-			'spine': '.spine__5b40b',
-			'spineBorder': '.spineBorder__5b40b'
+			'container': '._5b40bdd67543ba35-container',
+			'spine': '._5b40bdd67543ba35-spine',
+			'spineBorder': '._5b40bdd67543ba35-spineBorder'
 		),
 		'panels': (
-			'container': '.panels__5e434',
+			'container': '._5e434347c823b592-panels',
 			'user': (
-				'container': '.container__37e49',
-				'avatarWrapper': '.avatarWrapper__37e49',
-				'name': '.nameTag__37e49',
-				'username': '.usernameContainer__22048',
-				'title': '.title_d1da5f',
-				'tag': '.subtext__339d0'
+				'container': '._37e49614b9f110a9-container',
+				'avatarWrapper': '._37e49614b9f110a9-avatarWrapper',
+				'name': '._37e49614b9f110a9-nameTag',
+				'tag': '._339d0fce6b76910a-subtext'
 			)
 		),
 		'connected': (
-			'wrapper': '.wrapper_e131a9',
-			'container': '.container_e131a9',
+			'wrapper': '.e131a99484292a19-wrapper',
+			'container': '.e131a99484292a19-container',
 			'info': (
-				'container': '.connection_e131a9',
-				'inner': '.inner_e131a9',
-				'status': '.rtcConnectionStatus_c0cb95',
-				'ping': '.ping_c0cb95',
-				'label': '.labelWrapper_c0cb95',
+				'container': '.e131a99484292a19-connection',
+				'inner': '.e131a99484292a19-inner',
 				'labelButton': '.statusWithPopout_adcaac',
-				'channel': '.channel_e131a9',
-				'buttons': '.connection_e131a9 > .flex__7c0ba',
-				'button': '.button__67645',
-				'buttonContents': '.contents__201d5'
+				'channel': '.e131a99484292a19-channel',
+				'buttons': '.e131a99484292a19-connection > ._7c0bae9243151ddd-flex',
+				'button': '._67645e1530f1195d-button',
+				'buttonContents': '._201d5e8a3c09670a-contents'
 			),
 			'actions': (
-				'container': '.actionButtons_e131a9',
-				'button': '.button_e131a9',
-				'buttonContents': '.contents__201d5',
-				'buttonIcon': '.buttonIcon_e131a9'
+				'container': '.e131a99484292a19-actionButtons',
+				'button': '.e131a99484292a19-button',
+				'buttonContents': '._201d5e8a3c09670a-contents',
+				'buttonIcon': '.e131a99484292a19-buttonIcon'
 			)
 		)
 	),
 	'title': (
-		'container': '.container__9293f',
+		'container': '._9293f6b2fc12398a-container',
 		'children': (
-			'container': '.children__9293f',
-			'titleWrapper': '.titleWrapper__9293f',
-			'title': '.title_f75fb0'
+			'container': '._9293f6b2fc12398a-children',
+			'titleWrapper': '._9293f6b2fc12398a-titleWrapper',
+			'title': '.f75fb00fb7356cbe-title'
 		),
 		'toolbar': (
-			'container': '.toolbar__9293f',
-			'icon': '.icon_d98031',
-			'iconWrapper': '.iconWrapper__9293f',
-			'selected': '.selected__9293f'
+			'container': '._9293f6b2fc12398a-toolbar',
+			'icon': '.d98031d9a3e08b09-icon',
+			'iconWrapper': '._9293f6b2fc12398a-iconWrapper',
+			'selected': '._9293f6b2fc12398a-selected'
 		),
 		'search': (
-			'outer': '.search__49676',
-			'inner': '.search__97492',
-			'bar': '.searchBar__97492',
-			'icon': '.icon__97492',
-			'iconContainer': '.iconContainer_fea832',
-			'iconVisible': '.visible_fea832',
-			'searchContainer': '.resultsGroup__56fec',
-			'searchHeader': '.searchHeader_f3b986',
-			'searchResult': '.searchResult__02a39',
-			'searchFilter': '.searchFilter_bd8186',
-			'searchAnswer': '.searchAnswer_bd8186',
-			'queryHeader': '.queryContainer__55c99'
+			'outer': '._496769951eb140fe-search',
+			'inner': '._974928fe84ca9647-search',
+			'bar': '._974928fe84ca9647-searchBar',
+			'icon': '._974928fe84ca9647-icon',
+			'searchContainer': '._56fec8e8b8048fe0-resultsGroup',
+			'searchHeader': '.f3b986a284a18c78-searchHeader',
+			'searchResult': '._02a39cb2980ceaaf-searchResult',
+			'searchFilter': '.bd818628221af7aa-searchFilter',
+			'searchAnswer': '.bd818628221af7aa-searchAnswer',
+			'queryHeader': '._55c999adcf6db265-queryContainer'
 		),
 		'inbox': (
-			'header': '.header_ab6641',
-			'messages': '.messages__1ccd1',
-			'messageContainer': '.messageContainer__95796',
-			'forYouContainer': '.container_a54d1d',
-			'unreadContainer': '.recentMentionsPopout__95796',
-			'channelHeader': '.channelHeader__35a7e'
+			'header': '.ab66419eae73260f-header',
+			'messages': '._1ccd1ba5cb2270c2-messages',
+			'messageContainer': '._957962c2bd49881b-messageContainer',
+			'forYouContainer': '.a54d1d0b84a59dce-container',
+			'unreadContainer': '._957962c2bd49881b-recentMentionsPopout',
+			'channelHeader': '._35a7ecf3aba351b2-channelHeader'
 		)
 	),
 	'chat': (
-		'container': '.chat_f75fb0',
-		'content': '.content_f75fb0',
-		'skeleton': '.wrapper_cdf8a9, .wrapper_fc8177',
-		'eventCard': '.card__88264',
+		'container': '.f75fb00fb7356cbe-chat',
+		'content': '.f75fb00fb7356cbe-content',
+		'skeleton': '._4106ae7c1472c1de-wrapper, .fc817765600a960a-wrapper',
+		'eventCard': '._8826425bb0684b12-card',
 		'bars': (
-			'button': '.barButtonMain__0f481',
-			'buttonIcon': '.barButtonIcon__0f481',
+			'button': '._0f481cbbd7530492-barButtonMain',
+			'buttonIcon': '._0f481cbbd7530492-barButtonIcon',
 			'newMessages': (
-				'container': '.newMessagesBar__0f481',
-				'content': '.span__0f481'
+				'container': '._0f481cbbd7530492-newMessagesBar',
+				'content': '._0f481cbbd7530492-span'
 			),
-			'jumpTo': '.jumpToPresentBar__0f481',
-			'accessory': '.accessoryBar__74017',
-			'accessoryLeft': '.accessoryBarLeft__74017',
-			'accessoryRight': '.accessoryBarRight__74017',
+			'jumpTo': '._0f481cbbd7530492-jumpToPresentBar',
 			'attachments': (
-				'container': '.channelAttachmentArea_b77158',
-				'item': '.upload_aa605f',
-				'itemContainer': '.uploadContainer_aa605f',
-				'icon': '.icon__41ea0',
-				'actionBar': '.actionBar_aa605f.wrapper_f7ecac',
+				'container': '.b77158512e0ab116-channelAttachmentArea',
+				'item': '.aa605f19898fe32e-upload',
+				'itemContainer': '.aa605f19898fe32e-uploadContainer',
+				'icon': '._41ea06378162693a-icon',
+				'actionBar': '.aa605f19898fe32e-actionBar.f7ecaca5c80dbf3a-wrapper',
 				'name': (
-					'container': '.filenameContainer__41ea0',
-					'text': '.filename__41ea0'
+					'container': '._41ea06378162693a-filenameContainer',
+					'text': '._41ea06378162693a-filename'
 				)
 			),
 			'reply': (
-				'attachedBars': '.stackedBars__74017',
-				'clip': '.clipContainer__841c8',
-				'bar': '.replyBar__841c8',
-				'label': '.replyLabel__841c8'
+				'attachedBars': '._740174f3d6a2c8fe-stackedBars',
+				'clip': '._841c8f861f7b2704-clipContainer',
+				'bar': '._841c8f861f7b2704-replyBar',
+				'label': '._841c8f861f7b2704-replyLabel'
 			),
 			'pins': (
-				'header': '.header_e8b59c',
-				'footer': '.footer_e8b59c',
-				'message': '.messageGroupCozy_e8b59c'
+				'header': '.e8b59c4b335dd2fc-header',
+				'footer': '.e8b59c4b335dd2fc-footer',
+				'message': '.e8b59c4b335dd2fc-messageGroupCozy'
 			),
 			'threads': (
-				'header': '.header_d9c882',
-				'searchBar': '.searchBox_d9c882',
-				'wrapper': '.list_c441f0',
-				'container': '.container__6764b'
+				'header': '.d9c8822889d1d4a1-header',
+				'searchBar': '.d9be463a3c35b91e-container>form',
+				'wrapper': '.c441f0072c3e8827-list',
+				'container': '._6764bd76e0340219-container'
 			)
 		),
 		'reply': (
-			'container': '.repliedMessage_c19a55',
-			'avatar': '.replyAvatar_c19a55',
-			'username': '.username_c19a55',
-			'text': '.repliedTextPreview_c19a55'
+			'container': '.c19a557985eb7793-repliedMessage',
+			'avatar': '.c19a557985eb7793-replyAvatar',
+			'username': '.c19a557985eb7793-username',
+			'text': '.c19a557985eb7793-repliedTextPreview'
 		),
 		'messages': (
-			'container': '.chatContent_f75fb0',
-			'wrapper': '.messagesWrapper__36d07',
-			'scroller': '.scroller__36d07',
-			'scrollerContent': '.scrollerContent__36d07',
-			'scrollerInner': '.scrollerInner__36d07',
-			'scrollerSpacer': '.scrollerSpacer__36d07',
-			'icon': '.iconWrapper__8d563'
+			'container': '.f75fb00fb7356cbe-chatContent',
+			'wrapper': '._36d072eab2b2e737-messagesWrapper',
+			'scroller': '._36d072eab2b2e737-scroller',
+			'scrollerContent': '._36d072eab2b2e737-scrollerContent',
+			'scrollerInner': '._36d072eab2b2e737-scrollerInner',
+			'scrollerSpacer': '._36d072eab2b2e737-scrollerSpacer'
 		),
 		'divider': (
-			'container': '.divider__5126c',
-			'content': '.content__908e2',
-			'unread': '.isUnread__908e2'
+			'container': '._5126c0cd07f243a0-divider',
+			'content': '._908e20001ad67812-content',
+			'unread': '._908e20001ad67812-isUnread'
 		),
 		'message': (
-			'container': '.message__5126c',
-			'listItem': '.messageListItem__5126c',
-			'cozy': '.cozyMessage__5126c',
-			'content': '.contents_c19a55',
-			'avatar': '.avatar_c19a55',
-			'header': '.header_c19a55',
-			'headerText': '.headerText_c19a55',
-			'username': '.username_c19a55',
-			'timestamp': '.timestamp_c19a55',
-			'timestampInline': '.timestampInline_c19a55',
-			'markup': '.markup__75297',
-			'groupStart': '.groupStart__5126c',
-			'selected': '.selected__5126c',
-			'replying': '.replying__5126c',
-			'mentioned': '.mentioned__5126c',
-			'edited': '.edited_c19a55',
-			'timestampHover': '.timestampVisibleOnHover_c19a55',
-			'latin24CompactTimeStamp': '.latin24CompactTimeStamp_c19a55'
+			'container': '._5126c0cd07f243a0-message',
+			'listItem': '._5126c0cd07f243a0-messageListItem',
+			'cozy': '._5126c0cd07f243a0-cozyMessage',
+			'content': '.c19a557985eb7793-contents',
+			'avatar': '.c19a557985eb7793-avatar',
+			'header': '.c19a557985eb7793-header',
+			'headerText': '.c19a557985eb7793-headerText',
+			'username': '.c19a557985eb7793-username',
+			'timestamp': '.c19a557985eb7793-timestamp',
+			'timestampInline': '.c19a557985eb7793-timestampInline',
+			'markup': '._752971923a1e6683-markup',
+			'groupStart': '._5126c0cd07f243a0-groupStart',
+			'selected': '._5126c0cd07f243a0-selected',
+			'replying': '._5126c0cd07f243a0-replying',
+			'mentioned': '._5126c0cd07f243a0-mentioned',
+			'edited': '.c19a557985eb7793-edited',
+			'timestampHover': '.c19a557985eb7793-timestampVisibleOnHover',
+			'latin24CompactTimeStamp': '.c19a557985eb7793-latin24CompactTimeStamp'
 		),
 		'embed': (
-			'wrapper': '.embedFull__623de',
-			'gridContainer': '.gridContainer__623de',
-			'grid': '.grid__623de',
-			'remove': '.embedSuppressButton__623de',
-			'provider': '.embedProvider__623de',
-			'link': '.embedLink__623de',
-			'author': '.embedAuthor__623de',
-			'authorLink': '.embedAuthorNameLink__623de',
-			'title': '.embedTitle__623de',
-			'titleLink': '.embedTitleLink__623de',
-			'video': '.embedVideo__623de',
-			'media': '.embedMedia__623de',
-			'videoActions': '.embedVideoActions__623de',
-			'imageContent': '.imageContent__0f481',
-			'imageContainer': '.imageContainer__0f481',
-			'file': '.file__0ccae',
-			'container': '.container__60fa3'
+			'wrapper': '._623de82e76ad7f82-embedFull',
+			'gridContainer': '._623de82e76ad7f82-gridContainer',
+			'grid': '._623de82e76ad7f82-grid',
+			'remove': '._623de82e76ad7f82-embedSuppressButton',
+			'provider': '._623de82e76ad7f82-embedProvider',
+			'link': '._623de82e76ad7f82-embedLink',
+			'author': '._623de82e76ad7f82-embedAuthor',
+			'authorLink': '._623de82e76ad7f82-embedAuthorNameLink',
+			'title': '._623de82e76ad7f82-embedTitle',
+			'titleLink': '._623de82e76ad7f82-embedTitleLink',
+			'video': '._623de82e76ad7f82-embedVideo',
+			'media': '._623de82e76ad7f82-embedMedia',
+			'videoActions': '._623de82e76ad7f82-embedVideoActions',
+			'imageContent': '._0f481cbbd7530492-imageContent',
+			'imageContainer': '._0f481cbbd7530492-imageContainer',
+			'file': '._0ccaee68b77c7469-file',
+			'container': '._60fa3b8f3ca9845f-container'
 		),
 		'codeContent': (
-			'container': '.container__4d95d',
-			'code': '.textContainer__4d95d',
+			'container': '._4d95d73152192cf9-container',
+			'code': '._4d95d73152192cf9-textContainer',
 			'footer': (
-				'container': '.footer__4d95d',
-				'expand': '.toggleExpandSection__4d95d',
-				'open': '.openFullPreviewSection__4d95d',
-				'gap': '.footerGap__4d95d',
-				'name': '.attachmentName__4d95d',
-				'size': '.formattedSize__4d95d',
-				'download': '.downloadSection__4d95d',
-				'downloadButton': '.downloadButton__4d95d',
-				'language': '.codeIcon__4d95d'
+				'container': '._4d95d73152192cf9-footer',
+				'expand': '._4d95d73152192cf9-toggleExpandSection',
+				'open': '._4d95d73152192cf9-openFullPreviewSection',
+				'gap': '._4d95d73152192cf9-footerGap',
+				'name': '._4d95d73152192cf9-attachmentName',
+				'size': '._4d95d73152192cf9-formattedSize',
+				'download': '._4d95d73152192cf9-downloadSection',
+				'downloadButton': '._4d95d73152192cf9-downloadButton',
+				'language': '._4d95d73152192cf9-codeIcon'
 			)
 		),
 		'reactions': (
-			'container': '.reactions_f8896c',
-			'reaction': '.reaction_f8896c',
-			'inner': '.reactionInner_f8896c',
-			'count': '.reactionCount_f8896c',
+			'container': '.f8896c4f6be18f59-reactions',
+			'reaction': '.f8896c4f6be18f59-reaction',
+			'inner': '.f8896c4f6be18f59-reactionInner',
+			'count': '.f8896c4f6be18f59-reactionCount',
 			'emoji': '.emoji',
-			'tooltip': '.reactionTooltip_b49891'
+			'tooltip': '.b49891f8a231dbff-reactionTooltip'
 		),
 		'emoji': (
-			'container': '.emojiContainer__75abc',
+			'container': '._75abce0dd8453367-emojiContainer',
 			'image': '.emoji',
 			'jumbo': '.jumboable'
 		),
 		'actions': (
-			'container': '.buttonContainer_c19a55',
-			'buttons': '.buttons__5126c',
-			'wrapper': '.wrapper_f7ecac',
-			'button': '.button_f7ecac',
-			'icon': '.icon_a3b500'
+			'container': '.c19a557985eb7793-buttonContainer',
+			'buttons': '._5126c0cd07f243a0-buttons',
+			'wrapper': '.f7ecaca5c80dbf3a-wrapper',
+			'button': '.f7ecaca5c80dbf3a-button'
 		),
 		'textbox': (
-			'container': '.form_f75fb0',
-			'channelTextarea': '.channelTextArea_f75fb0',
-			'scroller': '.scrollableContainer__74017',
-			'inner': '.inner__74017',
+			'container': '.f75fb00fb7356cbe-form',
+			'channelTextarea': '.f75fb00fb7356cbe-channelTextArea',
+			'scroller': '._740174f3d6a2c8fe-scrollableContainer',
+			'inner': '._740174f3d6a2c8fe-inner',
 			'attach': (
-				'wrapper': '.attachWrapper__0923f',
-				'button': '.attachButton__0923f',
-				'inner': '.attachButtonInner__0923f'
+				'wrapper': '._0923f156a0410684-attachWrapper',
+				'button': '._0923f156a0410684-attachButton',
+				'inner': '._0923f156a0410684-attachButtonInner'
 			),
-			'textarea': '.textArea__74017',
-			'placeholder': '.placeholder__1b31f',
-			'slate': '.slateTextArea_ec4baf',
+			'textarea': '._740174f3d6a2c8fe-textArea',
+			'placeholder': '._1b31f471f0bb10ab-placeholder',
+			'slate': '.ec4baf0360ff3578-slateTextArea',
 			'buttons': (
-				'container': '.buttons__74017',
-				'button': '.button__201d5',
-				'contents': '.contents__201d5',
-				'wrapper': '.buttonWrapper__24af7',
-				'emoji': '.emojiButton__04eed',
-				'sprite': '.sprite__04eed',
-				'sticker': '.stickerButton__74017'
+				'container': '._740174f3d6a2c8fe-buttons',
+				'button': '._201d5e8a3c09670a-button',
+				'contents': '._201d5e8a3c09670a-contents',
+				'wrapper': '._24af7f4d0326ba4f-buttonWrapper',
+				'emoji': '._04eede68d145ae81-emojiButton',
+				'sprite': '._04eede68d145ae81-sprite',
+				'sticker': '._740174f3d6a2c8fe-stickerButton'
 			),
 			'typing': (
-				'container': '.typing_b88801',
-				'dots': '.typingDots_b88801',
-				'ellipsis': '.ellipsis_b88801',
-				'text': '.text_b88801'
+				'container': '.b8880176888cc928-typing',
+				'dots': '.b8880176888cc928-typingDots',
+				'ellipsis': '.b8880176888cc928-ellipsis',
+				'text': '.b8880176888cc928-text'
 			),
 			'cooldown': (
-				'container': '.cooldownWrapper_b21699',
-				'slowIcon': '.slowModeIcon_b21699'
+				'container': '.b216994de061a9e2-cooldownWrapper',
+				'slowIcon': '.b216994de061a9e2-slowModeIcon'
 			)
 		),
 		'announcement': (
-			'textbox': '.wrapper__44df5',
-			'content': '.content__44df5',
-			'image': '.image__44df5',
-			'text': '.text__44df5',
-			'buttonContainer': '.buttonContainer__44df5',
-			'button': '.button__44df5'
+			'textbox': '._44df51b030bd5ece-wrapper',
+			'content': '._44df51b030bd5ece-content',
+			'image': '._44df51b030bd5ece-image',
+			'text': '._44df51b030bd5ece-text',
+			'buttonContainer': '._44df51b030bd5ece-buttonContainer',
+			'button': '._44df51b030bd5ece-button'
 		),
 		'thread': (
-			'container': '.container__01ae2',
-			'chat': '.chat_a44415',
-			'chatContent': '.chatContent_f75fb0',
-			'divider': '.divider_ee23ac',
-			'threadAdded': '.container__9271d',
+			'container': '._01ae244280823725-container',
+			'chat': '.a44415a3320e67de-chat',
+			'chatContent': '.f75fb00fb7356cbe-chatContent',
+			'divider': '.ee23ac2acd215184-divider',
+			'threadAdded': '._9271d23503a01b50-container',
 			'followBar': (
-				'container': '.container__34c2c',
-				'buttons': '.buttons__34c2c',
-				'button': '.button__34c2c'
+				'container': '._34c2c51cfce1632e-container',
+				'buttons': '._34c2c51cfce1632e-buttons'
 			)
 		),
 		'browse': (
-			'container': '.pageBody__41ed7',
-			'channelRow': '.channelRow_e4503a',
-			'scroller': '.browser__41ed7 .scrollerInner_e4503a'
+			'container': '._41ed70e52483df6d-pageBody',
+			'channelRow': '.e4503acec53c64dd-channelRow',
+			'scroller': '._41ed70e52483df6d-browser .e4503acec53c64dd-scrollerInner'
 		)
 	),
 	'thread': (
-		'main': '.mainCard_f369db',
+		'main': '.f369dba7416c67f0-mainCard',
 		'list': (
-			'content': '.content__99f8c'
+			'content': '._99f8cc7ad4790ce9-content'
 		),
-		'row': '.row__76f04',
+		'row': '._76f047ded9fef6d4-row',
 		'card': (
 			'tag': (
-				'container': '.pill_a2c9e8'
+				'container': '.a2c9e80f6531ccc2-pill'
 			),
-			'emoji': '.emoji__1c948',
-			'selected': '.selected_a2c9e8'
+			'emoji': '._1c94881cf24b3a25-emoji',
+			'selected': '.a2c9e80f6531ccc2-selected'
 		),
-		'uploadInput': '.uploadInput__94439',
-		'postGuidelines': '.container_ca49a1'
+		'uploadInput': '._9443936bd3681b09-uploadInput',
+		'postGuidelines': '.ca49a1898ddc29e3-container'
 	),
 	'members': (
-		'container': '.container_c8ffbb',
-		'clickable': '.clickable__91a9d',
-		'wrap': '.membersWrap_c8ffbb',
-		'scroller': '.members_c8ffbb',
-		'content': '.content__99f8c',
-		'header': '.membersGroup_c8ffbb'
+		'container': '.c8ffbb79449f399c-container',
+		'clickable': '._91a9d7f7e5248a56-clickable',
+		'wrap': '.c8ffbb79449f399c-membersWrap',
+		'scroller': '.c8ffbb79449f399c-members',
+		'content': '._99f8cc7ad4790ce9-content',
+		'header': '.c8ffbb79449f399c-membersGroup'
 	),
 	'member': (
-		'container': '.member__5d473',
-		'childContainer': '.childContainer__91a9d',
-		'inner': '.memberInner__5d473',
-		'layout': '.layout__91a9d',
-		'avatar': '.avatar__91a9d',
-		'content': '.content__91a9d',
-		'nameAndDecorators': '.nameAndDecorators__91a9d',
-		'name': '.name__91a9d',
-		'username': '.username__5d473',
-		'subText': '.subText__91a9d',
-		'selected': '.selected__91a9d'
+		'container': '._5d473ecff348c314-member',
+		'childContainer': '._91a9d7f7e5248a56-childContainer',
+		'inner': '._5d473ecff348c314-memberInner',
+		'layout': '._91a9d7f7e5248a56-layout',
+		'avatar': '._91a9d7f7e5248a56-avatar',
+		'content': '._91a9d7f7e5248a56-content',
+		'nameAndDecorators': '._91a9d7f7e5248a56-nameAndDecorators',
+		'name': '._91a9d7f7e5248a56-name',
+		'username': '._5d473ecff348c314-username',
+		'subText': '._91a9d7f7e5248a56-subText',
+		'selected': '._91a9d7f7e5248a56-selected'
 	),
 	'popout': (
 		'menu': (
-			'container': '.menu_c1e9c4',
-			'scroller': '.scroller_c1e9c4',
+			'container': '.c1e9c47c23f12ca3-menu',
+			'scroller': '.c1e9c47c23f12ca3-scroller',
 			'group': '[role="group"]',
-			'separator': '.separator_c1e9c4',
-			'popover': '.popover_f84418',
-			'activePosts': '.popout__76f04',
+			'separator': '.c1e9c47c23f12ca3-separator',
+			'popover': '.f84418acfdbdfe54-popover',
+			'activePosts': '._76f047ded9fef6d4-popout',
 			'quickReactions': (
-				'container': '.wrapper_f563df',
-				'button': '.button_f563df',
-				'icon': '.icon_f563df'
+				'container': '.f563df886a7377be-wrapper',
+				'button': '.f563df886a7377be-button',
+				'icon': '.f563df886a7377be-icon'
 			),
 			'item': (
-				'container': '.item_c1e9c4',
-				'arrow': '.arrow_d64d50',
-				'focused': '.focused_c1e9c4',
-				'hideInteraction': '.hideInteraction_c1e9c4'
+				'container': '.c1e9c47c23f12ca3-item',
+				'focused': '.c1e9c47c23f12ca3-focused',
+				'hideInteraction': '.c1e9c47c23f12ca3-hideInteraction'
 			),
 			'stream': (
-				'body': '.body__6da2d'
+				'body': '._6da2d8abf659f945-body'
 			)
 		),
 		'user': (
-			'outer': '.outer_c0bea0 ',
-			'inner': '.inner_c0bea0',
-			'badges': '.container__8061a',
-			'nameTag': '.nameTag__37e49',
-			'nickName': '.nickname__63ed3',
-			'status': '.outer_ab8609, .inner_ab8609',
-			'popover': '.statusPopover__2d0ab'
+			'outer': '.c0bea05627c5dc35-outer ',
+			'inner': '.c0bea05627c5dc35-inner',
+			'badges': '._8061a5f9dbf6d829-container',
+			'nameTag': '._37e49614b9f110a9-nameTag',
+			'nickName': '._63ed30c16c7151f2-nickname',
+			'status': '.ab86098b36386ff7-outer, .ab86098b36386ff7-inner',
+			'popover': '._2d0abf0638bcaa3f-statusPopover'
 		),
 		'currentUser': (
-			'wrapper': '.outer_c0bea0:has(.menus_ce8328)'
+			'wrapper': '.c0bea05627c5dc35-outer:has(.ce832809562bf737-menus)'
 		),
 		'emoji': (
-			'searchBar': '.searchBar_c0e32c',
-			'wrapper': '.contentWrapper__08434',
-			'picker': '.emojiPicker_c0e32c',
-			'header1': '.header_c0e32c',
-			'header2': '.header_c656ac',
-			'listRow': '.emojiListRow_fc7141',
-			'scrollerBase': '.categoryList_c0e32c .scrollerBase_d125d2',
-			'categoryList': '.categoryList_c0e32c',
-			'nitroDivider': '.nitroTopDividerContainer_b3fb5f',
-			'nitroBackground': '.categorySectionNitroLocked_c656ac',
-			'shortcut': '.unicodeShortcut_b9ee0c',
-			'footer': '.inspector_c0e32c',
-			'category': '.categoryItemDefaultCategory_b9ee0c',
-			'categorySelected': '.categoryItemDefaultCategorySelected_b9ee0c',
-			'emoji': '.emojiItem_fc7141',
-			'emojiSelected': '.emojiItemSelected_fc7141'
+			'searchBar': '._72c3859781ebce8f-container',
+			'wrapper': '._084343c4f11eaaab-contentWrapper',
+			'picker': '.c0e32c5cffed3d9f-emojiPicker',
+			'header1': '.c0e32c5cffed3d9f-header',
+			'header2': '.c656aca9a3db31a9-header',
+			'listRow': '.fc7141859aaa98b7-emojiListRow',
+			'scrollerBase': '.c0e32c5cffed3d9f-categoryList .d125d22cdfd32cfe-scrollerBase',
+			'categoryList': '.c0e32c5cffed3d9f-categoryList',
+			'nitroDivider': '.b3fb5fe9675b4b4d-nitroTopDividerContainer',
+			'nitroBackground': '.c656aca9a3db31a9-categorySectionNitroLocked',
+			'shortcut': '.b9ee0c229bc0b6bb-unicodeShortcut',
+			'footer': '.c0e32c5cffed3d9f-inspector',
+			'category': '.b9ee0c229bc0b6bb-categoryItemDefaultCategory',
+			'categorySelected': '.b9ee0c229bc0b6bb-categoryItemDefaultCategorySelected',
+			'emoji': '.fc7141859aaa98b7-emojiItem',
+			'emojiSelected': '.fc7141859aaa98b7-emojiItemSelected'
 		),
 		'sticker': (
-			'searchBar': '.searchBar_fed6d3',
-			'header1': '.header__8ef02',
-			'header2': '.packHeader_e94b8c',
-			'shortcut': '.standardStickerShortcut__3ad28',
-			'footer': '.inspector_aeaaeb',
-			'category': '.stickerCategoryGeneric__3ad28',
-			'categorySelected': '.stickerCategoryGenericSelected__3ad28',
-			'sticker': '.sticker_c6367b',
-			'stickerSelected': '.stickerInspected_c6367b',
-			'stickerCreate': '.createSticker_c6367b'
+			'header1': '._8ef02eea17068b73-header',
+			'header2': '.e94b8cb2ff7b5c8d-packHeader',
+			'shortcut': '._3ad28b0867fa3fad-standardStickerShortcut',
+			'footer': '.aeaaeb2a573807f0-inspector',
+			'category': '._3ad28b0867fa3fad-stickerCategoryGeneric',
+			'categorySelected': '._3ad28b0867fa3fad-stickerCategoryGenericSelected',
+			'sticker': '.c6367b0f171ba6d7-sticker',
+			'stickerSelected': '.c6367b0f171ba6d7-stickerInspected',
+			'stickerCreate': '.c6367b0f171ba6d7-createSticker'
 		),
 		'gif': (
-			'searchBar': '.inner_a45028',
-			'header': '.header_fed6d3'
+			'header': '.fed6d32841cc2da2-header'
 		)
 	),
 	'profile': (
-		'banner': '.banner__68edb',
-		'bannerWrapper': '.bannerSVGWrapper_b32cc2',
-		'overlay': '.overlayBackground_c69a7b',
-		'outerThemed': '.userProfileOuterUnthemed_c69a7b',
-		'inner': '.userProfileInner_c69a7b',
-		'innerNonPremium': '.userProfileInnerThemedNonPremium_c69a7b',
-		'innerWithBanner': '.userProfileInnerThemedWithBanner_c69a7b',
-		'innerWithoutBanner': '.userProfileInnerThemedPremiumWithoutBanner_c69a7b',
-		'messageBarBackground': '.inner_c0bea0'
+		'banner': '._68edb95846a37624-banner',
+		'messageBarBackground': '.c0bea05627c5dc35-inner'
 	),
 	'modal': (
 		'backdrop': '.backdrop__1a911',
 		'withLayer': '.withLayer__29ace',
-		'focusLock': '.focusLock__49fc1',
-		'root': '.root__49fc1',
-		'header': '.header__49fc1',
+		'focusLock': '._49fc18ba07c5025f-focusLock',
+		'root': '._49fc18ba07c5025f-root',
+		'header': '._49fc18ba07c5025f-header',
 		'modalContent': '.modalContent__70657',
-		'content': '.content__49fc1',
-		'footer': '.footer__49fc1',
+		'content': '._49fc18ba07c5025f-content',
+		'footer': '._49fc18ba07c5025f-footer',
 		'user': (
-			'username': '.username__05e81',
-			'list': (
-				'row': '.listRow__9d78f',
-			),
-			'info': (
-				'textarea': '.textarea_dde0a8'
-			),
+			'username': '._05e81ad8c06c1066-username',
 			'relations': (
 				'more': 'div[class][role="button"]'
 			),
 			'tabBar': (
-				'selected': '.selected_aa8da2'
+				'selected': '.aa8da23faa27393c-selected'
 			)
 		)
 	),
 	'status': (
-		'mask': '.mask__44b0c',
-		'svg': '.svg__44b0c'
+		'mask': '._44b0c28be7879b7b-mask',
+		'svg': '._44b0c28be7879b7b-svg'
 	),
 	'settings': (
-		'layer': '.layer__960e4 :not(.baseLayer__960e4)',
-		'auto': '.auto_d125d2',
-		'content': '.contentRegion__23e6b',
-		'scroller': '.contentRegionScroller__23e6b',
+		'layer': '._960e4207cea8323e-layer :not(._960e4207cea8323e-baseLayer)',
+		'auto': '.d125d22cdfd32cfe-auto',
+		'content': '._23e6b439306f125a-contentRegion',
+		'scroller': '._23e6b439306f125a-contentRegionScroller',
 		'header': (
-			'h5': '.h5_b717a1',
-			'title': '.title__0d850'
+			'h5': '.b717a15017b82443-h5'
 		),
 		'description': (
-			'normal': '.description_ddd181',
-			'label': '.labelDescriptor_ddd181',
-			'keybind': '.defaultKeybindGroupDescription__740f2'
+			'normal': '.ddd1814f7cd3e6fd-description',
+			'label': '.ddd1814f7cd3e6fd-labelDescriptor'
 		),
 		'sidebar': (
-			'wrapper': '.standardSidebarView__23e6b',
-			'container': '.sidebar__23e6b',
-			'region': '.sidebarRegion__23e6b',
-			'scroller': '.sidebarRegionScroller__23e6b',
-			'side': '.side_aa8da2',
-			'header': '.header_aa8da2',
-			'item': '.item_aa8da2',
-			'selected': '.selected_aa8da2',
-			'separator': '.separator_aa8da2',
-			'premium': '.premiumTab__581ea',
-			'premiumLabel': '.premiumLabel_e681d1',
-			'socials': '.socialLinks__7df54',
-			'info': '.info__2debe',
-			'infoLine': '.line__2debe',
-			'badge': '.textBadge_f05120',
-			'searchBar': '.searchBar_c7e907',
-			'searchBarInner': '.searchBar_c7e907 .inner_fea832'
+			'wrapper': '._23e6b439306f125a-standardSidebarView',
+			'container': '._23e6b439306f125a-sidebar',
+			'region': '._23e6b439306f125a-sidebarRegion',
+			'scroller': '._23e6b439306f125a-sidebarRegionScroller',
+			'side': '.aa8da23faa27393c-side',
+			'header': '.aa8da23faa27393c-header',
+			'item': '.aa8da23faa27393c-item',
+			'selected': '.aa8da23faa27393c-selected',
+			'separator': '.aa8da23faa27393c-separator',
+			'premium': '._581eac78e841159b-premiumTab',
+			'premiumLabel': '.e681d139d22f277b-premiumLabel',
+			'socials': '._7df54e658bdcad78-socialLinks',
+			'info': '._2debea61131de3de-info',
+			'infoLine': '._2debea61131de3de-line',
+			'searchBar': '.c7e9071ee8df9113-searchBar',
+			'searchBarInner': '.c7e9071ee8df9113-searchBar .inner_fea832'
 		),
 		'server': (
-			'folderHeader': '.folderHeader__1a4ef',
-			'permissionsContainer': '.container_d8f25b',
-			'nitroReward': '.tierBody_a36dee',
-			'descriptionBox': '.descriptionBox__981f7',
-			'banListScroller': '.scrollerContainer__4b8d8',
-			'communityOverview': '.upsellContainer__73000',
-			'communityOverviewFooter': '.upsellFooter__73000',
-			'onboardingPreview': '.upsellPreview_d9161f',
-			'onboardingPreviewButtons': '.previewListItem_d9161f',
-			'monetizationContainer': '.ctaContent_d6d601',
-			'monetizationTutorial': '.howItWorksContainer_dd30dc',
-			'monetizationTutorialCard': '.howItWorksCard_dd30dc',
-			'monetizationBenefitsCard': '.creatorBenefitCard__02e4c',
-			'monetizationServersCard': '.guildCard__2485e',
-			'invitesScrollerBase': '.customScroller__23e6b.scrollerBase__99f8c',
-			'auditLog': '.auditLog__43dab',
-			'auditLogTimestamp': '.timestamp__43dab',
-			'auditLogChangeDetails': '.changeDetails__43dab',
-			'auditLogHeader': '.header__43dab',
-			'auditLogHeaderExpanded': '.headerExpanded__43dab',
-			'roleEditPermissionsHeader': '.header_c6bf1b',
-			'roleEditPermissionsTitleContainer': '.titleContainer__81b3e',
-			'roleEditPermissionsSearchBarContainer': '.searchContainer__16663',
-			'simpleItemWrapper': '.simpleItemWrapper__5dac8 ',
-			'safetyStep': '.safetyStepRow_eae0ef',
-			'autoModContainer': '.mainContainer_c5e6a1',
-			'autoModInnerContainer': '.contentExpandContainer_a25a68',
-			'autoModInnerCollapseable': '.contentExpandContainer_a25a68 .collapseable__217b7',
-			'autoModTag': '.actionContainer_bc4513',
-			'autoModFilter': '.backgroundModifierContainer_d96a9c',
-			'autoModFilterContainer': '.container_d96a9c',
-			'autoModFilterDisabled': '.container_d96a9c>.clickableContainer_d96a9c.disabled_d96a9c'
+			'folderHeader': '._1a4ef2934d882343-folderHeader',
+			'permissionsContainer': '.d8f25bf4f76423e6-container',
+			'nitroReward': '.a36dee84341ac9f5-tierBody',
+			'descriptionBox': '._981f723644a1a061-descriptionBox',
+			'banListScroller': '._4b8d892e5bcb9bd7-scrollerContainer',
+			'communityOverview': '._73000d97b1b29da5-upsellContainer',
+			'communityOverviewFooter': '._73000d97b1b29da5-upsellFooter',
+			'onboardingPreview': '.d9161fe9b78d5bb9-upsellPreview',
+			'onboardingPreviewButtons': '.d9161fe9b78d5bb9-previewListItem',
+			'monetizationContainer': '.d6d6018db6dcbc63-ctaContent',
+			'monetizationTutorial': '.dd30dca4d268da6e-howItWorksContainer',
+			'monetizationTutorialCard': '.dd30dca4d268da6e-howItWorksCard',
+			'monetizationBenefitsCard': '._02e4c53e15067b10-creatorBenefitCard',
+			'monetizationServersCard': '._2485e7bec1c79566-guildCard',
+			'invitesScrollerBase': '._23e6b439306f125a-customScroller._99f8cc7ad4790ce9-scrollerBase',
+			'auditLog': '._43dab84f7529cb48-auditLog',
+			'auditLogTimestamp': '._43dab84f7529cb48-timestamp',
+			'auditLogChangeDetails': '._43dab84f7529cb48-changeDetails',
+			'auditLogHeader': '._43dab84f7529cb48-header',
+			'auditLogHeaderExpanded': '._43dab84f7529cb48-headerExpanded',
+			'roleEditPermissionsHeader': '.c6bf1b7af480dfda-header',
+			'roleEditPermissionsTitleContainer': '._81b3e843d09e285a-titleContainer',
+			'roleEditPermissionsSearchBarContainer': '._166631599d7f960b-searchContainer',
+			'simpleItemWrapper': '._5dac89b770bde66c-simpleItemWrapper ',
+			'safetyStep': '.eae0ef2ab2653087-safetyStepRow',
+			'autoModContainer': '.c5e6a11cf27336f8-mainContainer',
+			'autoModInnerContainer': '.a25a68d7be1be409-contentExpandContainer',
+			'autoModInnerCollapseable': '.a25a68d7be1be409-contentExpandContainer ._217b73c8e5e3ff6d-collapseable',
+			'autoModTag': '.bc45130a46a61b36-actionContainer',
+			'autoModFilter': '.d96a9cdaeeba104e-backgroundModifierContainer',
+			'autoModFilterContainer': '.d96a9cdaeeba104e-container',
+			'autoModFilterDisabled': '.d96a9cdaeeba104e-container>.d96a9cdaeeba104e-clickableContainer.d96a9cdaeeba104e-disabled'
 		),
 		'connections': (
-			'header': '.connectionHeader_c7f964',
-			'wrapper': '.connectionOptionsWrapper_c7f964',
-			'base': '.connection_c7f964',
-			'delete': '.connectionDelete_c7f964'
+			'header': '.c7f964e7e0fc8b47-connectionHeader',
+			'base': '.c7f964e7e0fc8b47-connection',
+			'delete': '.c7f964e7e0fc8b47-connectionDelete'
 		),
 		'misc': (
-			'accountProfileCard': '.accountProfileCard__1fed1',
-			'primaryCard': '.cardPrimary__73069',
-			'fieldList': '.fieldList__1fed1',
-			'blockedHeader': '.header__5cea9',
-			'blockedUser': '.usersList__5cea9',
-			'recommendedServerCard': '.recommendedServerCard__51537',
-			'rewardCard': '.card__4d7bb',
-			'faq': '.faq__744ff',
-			'activeGame': '.activeGame_cc46f0',
-			'authedApp': '.authedAppV2__50a54',
-			'language': '.item__88a69'
+			'accountProfileCard': '._1fed1dd06c7aabf7-accountProfileCard',
+			'primaryCard': '._730694f5672c9601-cardPrimary',
+			'fieldList': '._1fed1dd06c7aabf7-fieldList',
+			'blockedHeader': '._5cea9da4c2ca012f-header',
+			'blockedUser': '._5cea9da4c2ca012f-usersList',
+			'recommendedServerCard': '._5153730f0c7cf20d-recommendedServerCard',
+			'rewardCard': '._4d7bb356d058f441-card',
+			'faq': '._744fffb886c6f25b-faq',
+			'activeGame': '.cc46f0f859f26200-activeGame',
+			'authedApp': '._50a5493e9d9cc496-authedAppV2',
+			'language': '._88a69141dd70013a-item'
 		)
 	),
 	'discovery': (
-		'appCard': '.card__84e3e',
-		'nav': '.nav__551b0',
-		'navItem': '.navItem__551b0',
-		'selected': '.selected__551b0',
-		'navHeader': '.header__551b0',
-		'headerBar': '.backdrop__8a7fc',
-		'searchBar': '.searchBar__1ac1c',
-		'tab': '.tab__65d41',
-		'questsTab': '.tabItem_c9a59b',
-		'contentContainer': '.contentContainer__8f46b',
-		'commandContainer': '.contentContainer_c6b177',
-		'appContainer': '.appContainer__5a4b6',
-		'code': '.code_cf4812',
-		'benefits': '.benefits_bb8774',
-		'benefitsCard': '.card_bb8774',
-		'hoverCard': '.hoverCard_fdda30',
-		'serverCard': '.card_c59071'
+		'appCard': '._84e3e626b96552ad-card',
+		'nav': '._551b0894962ff66f-nav',
+		'navItem': '._551b0894962ff66f-navItem',
+		'selected': '._551b0894962ff66f-selected',
+		'navHeader': '._551b0894962ff66f-header',
+		'headerBar': '._8a7fc664acf53af6-backdrop',
+		'searchBar': '._1ac1c54c56e5807c-searchBar',
+		'tab': '._65d410cfafd026bc-tab',
+		'questsTab': '.c9a59bd107b06cab-tabItem',
+		'contentContainer': '._8f46bfba259ff5e4-contentContainer',
+		'commandContainer': '.c6b17748219aae56-contentContainer',
+		'appContainer': '._5a4b641eea77e793-appContainer',
+		'code': '.cf48127484dbde85-code',
+		'benefits': '.bb8774b01419b2c6-benefits',
+		'benefitsCard': '.bb8774b01419b2c6-card',
+		'hoverCard': '.fdda30ffc9f22531-hoverCard',
+		'serverCard': '.c590712dbcf16100-card'
 	),
 	'tooltip': (
-		'bottom': '.tooltipBottom_c36707',
-		'primary': '.tooltipPrimary_c36707',
-		'pointer': '.tooltipPointer_c36707',
-		'content': '.tooltipContent_c36707',
+		'bottom': '.c36707910f687430-tooltipBottom',
+		'primary': '.c36707910f687430-tooltipPrimary',
+		'pointer': '.c36707910f687430-tooltipPointer',
+		'content': '.c36707910f687430-tooltipContent',
 		'guilds': (
-			'container': '.listItemTooltip__90d72',
-			'rowName': '.rowGuildName_b1f768',
-			'name': '.guildNameText_b1f768',
-			'muted': '.muteText_b1f768'
+			'container': '._90d725a74e7171b7-listItemTooltip',
+			'rowName': '.b1f768426adf64d9-rowGuildName',
+			'name': '.b1f768426adf64d9-guildNameText',
+			'muted': '.b1f768426adf64d9-muteText'
 		)
 	),
 	'roles': (
-		'root': '.root__48c1c',
-		'roles': '.roles_fa2f72',
-		'role': '.role_dfa8b6',
-		'circle': '.roleCircle__4f569',
-		'name': '.roleName__48c1c'
+		'root': '._48c1c0768f2a2421-root',
+		'role': '.dfa8b6b94cddb191-role',
+		'circle': '._4f569b8941af22d1-roleCircle',
+		'name': '._48c1c0768f2a2421-roleName'
 	),
 	'buttons': (
-		'button': '.button__201d5',
-		'content': '.contents__201d5',
-		'watch': '.watchButton__6da2d',
+		'button': '._201d5e8a3c09670a-button',
+		'content': '._201d5e8a3c09670a-contents',
 		'colour': (
-			'brand': '.colorBrand__201d5',
-			'brandNew': '.colorBrandNew__8872c',
-			'primary': '.colorPrimary__201d5',
-			'red': '.colorRed__201d5',
-			'green': '.colorGreen__201d5',
-			'white': '.colorWhite__201d5',
-			'lookBlank': '.lookBlank__201d5'
+			'brand': '._201d5e8a3c09670a-colorBrand',
+			'primary': '._201d5e8a3c09670a-colorPrimary',
+			'red': '._201d5e8a3c09670a-colorRed',
+			'green': '._201d5e8a3c09670a-colorGreen',
+			'white': '._201d5e8a3c09670a-colorWhite',
+			'lookBlank': '._201d5e8a3c09670a-lookBlank'
 		)
 	)
 );
