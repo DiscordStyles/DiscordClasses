@@ -101,40 +101,41 @@ $classmap: (
 			'popover': '._2d0abf0638bcaa3f-popover'
 		),
 		//The list of channels in a guild
-		'channels': (
-			'scroller': '._629e4c86564a4ee7-scroller',
-			'content': '._99f8cc7ad4790ce9-content',
-			'unreadBar': '._7aaec78b97ff00f7-bar',
-			'unreadMentionsBar': '._7aaec78b97ff00f7-mentionsBar',
-			'category': (
-				'container': '._29444ba32c7fbeab-containerDefault',
-				'wrapper': '._29444ba32c7fbeab-wrapper',
-				'content': '._29444ba32c7fbeab-mainContent',
-				'name': '._29444ba32c7fbeab-name',
-				'children': '._29444ba32c7fbeab-children'
-			)
-		),
+		'channels':
+			(
+				'scroller': '._629e4c86564a4ee7-scroller',
+				'content': '._99f8cc7ad4790ce9-content',
+				'unreadBar': '._7aaec78b97ff00f7-bar',
+				'unreadMentionsBar': '._7aaec78b97ff00f7-mentionsBar',
+				'category': (
+					'container': '._29444ba32c7fbeab-containerDefault',
+					'wrapper': '._29444ba32c7fbeab-wrapper',
+					'content': '._29444ba32c7fbeab-mainContent',
+					'name': '._29444ba32c7fbeab-name',
+					'children': '._29444ba32c7fbeab-children'
+				)
+			),
 		//Individual channel in the left hand channel list of a guild
-		'channel': (
-			'container': '.c69b6db0641110f6-containerDefault',
-			'containerSelected': '.c69b6db0641110f6-selected',
-			'channelSelected': '.c69b6db0641110f6-selectedChannel',
-			'wrapper': '._2ea32c412048f708-wrapper',
-			'link': '._2ea32c412048f708-link',
-			'selected': '._2ea32c412048f708-modeSelected',
-			'unread': '._2ea32c412048f708-modeUnreadImportant',
-			'muted': '._2ea32c412048f708-modeMuted',
-			'iconContainer': '._2ea32c412048f708-iconContainer',
-			'icon': '._2ea32c412048f708-icon',
-			'iconItem': '.c69b6db0641110f6-iconItem',
-			'name': '._2ea32c412048f708-name',
-			'unreadPill': '._2ea32c412048f708-unread',
-			'connected': '._2ea32c412048f708-modeConnected',
-			//#region VC specific classes
-			'users': '._260e1982cd52c5c3-users',
-			'total': '._260e1982cd52c5c3-total'
-			//#endregion VC specific classes
-		),
+		'channel':
+			(
+				'container': '.c69b6db0641110f6-containerDefault',
+				'containerSelected': '.c69b6db0641110f6-selected',
+				'channelSelected': '.c69b6db0641110f6-selectedChannel',
+				'wrapper': '._2ea32c412048f708-wrapper',
+				'link': '._2ea32c412048f708-link',
+				'selected': '._2ea32c412048f708-modeSelected',
+				'unread': '._2ea32c412048f708-modeUnreadImportant',
+				'muted': '._2ea32c412048f708-modeMuted',
+				'iconContainer': '._2ea32c412048f708-iconContainer',
+				'icon': '._2ea32c412048f708-icon',
+				'iconItem': '.c69b6db0641110f6-iconItem',
+				'name': '._2ea32c412048f708-name',
+				'unreadPill': '._2ea32c412048f708-unread',
+				'connected': '._2ea32c412048f708-modeConnected',
+				//#region VC specific classes
+				'users': '._260e1982cd52c5c3-users',
+				'total': '._260e1982cd52c5c3-total' //#endregion VC specific classes
+			),
 		'threads': (
 			'container': '._5b40bdd67543ba35-container',
 			'spine': '._5b40bdd67543ba35-spine',
