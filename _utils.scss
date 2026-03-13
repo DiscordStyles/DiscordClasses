@@ -19,7 +19,7 @@
 }
 @function remove-nth($list, $index, $split: '|') {
 	$result: ();
-	$index: if($index < 0, list.length($list) + $index + 1, $index);
+	$index: if(sass($index < 0): list.length($list) + $index + 1; else: $index);
 
 	@for $i from 1 through list.length($list) {
 		@if $i != $index {
@@ -43,7 +43,7 @@
 @function join-list($list, $join: '') {
 	$string: null;
 	@each $key in $list {
-		$string: if($string != null, $string + $join + $key, $key);
+		$string: if(sass($string != null): $string + $join + $key; else: $key);
 	}
 	@return string.unquote($string);
 }
@@ -62,7 +62,7 @@
 	$classes: '';
 	@each $class in split($keys, $char) {
 		$_class: get-class($classmap, $class);
-		$classes: if(string.length($classes) == 0, $_class, $classes + $char + $_class);
+		$classes: if(sass(string.length($classes) == 0): $_class; else: $classes + $char + $_class);
 	}
 	@return $classes;
 }

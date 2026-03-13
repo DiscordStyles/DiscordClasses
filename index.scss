@@ -36,7 +36,7 @@
 	$not: null;
 	@if string.index($keys, '!') {
 		$classes: utils.split($keys, '!');
-		$first: if(list.nth($classes, 1) != '', query-transform(list.nth($classes, 1)), '');
+		$first:  if(sass(list.nth($classes, 1) != ""): query-transform(list.nth($classes, 1)); else: "");
 		$rest: null;
 		@each $class in utils.remove-nth($classes, 1) {
 			@if $rest == null {
@@ -47,7 +47,7 @@
 		}
 		$not: $first + ':not(' + $rest + ')';
 	}
-	@return if($not == null, query-transform($keys), $not);
+	@return if(sass($not == null): query-transform($keys); else: $not);
 }
 
 @function cls($keys) {
